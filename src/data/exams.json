@@ -1,0 +1,3929 @@
+{
+  "title": "Vzorové přijímací zkoušky do magisterského studia FIT ČVUT",
+  "description": "Kompilace vzorových testů pro přijímací řízení do magisterského studia FIT ČVUT Praha. Otázky jsou ve formátu multiple-choice (výběr jedné nebo více možností) nebo open-answer (volná odpověď).",
+  "exams": [
+    {
+      "year": 2014,
+      "title": "Vzorový test pro přijímací zkoušku do MSP na FIT",
+      "source_test_name": "VzorTest 2014",
+      "note": "Otázky a správné odpovědi přímo v dokumentu (označeny hvězdičkou)",
+      "questions": [
+        {
+          "id": 1,
+          "points": null,
+          "question": "Které z následujících formulí jsou tautologickým důsledkem tvrzení: 'Umím anglicky tehdy a jen tehdy, když umím francouzsky.'",
+          "type": "multiple",
+          "options": {
+            "a": "Umím anglicky a umím francouzsky.",
+            "b": "Jestliže umím francouzsky, pak umím i anglicky.",
+            "c": "Jestliže ne umím francouzsky, pak ne umím ani anglicky.",
+            "d": "Umím anglicky nebo umím francouzsky."
+          },
+          "correct_answers": [
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 2,
+          "points": null,
+          "question": "Které z následujících interpretací binárního predikátu p(x; y) jsou modely teorie T = {(∀y)(∃x)p(x,y)} v přirozených číslech (s nulou) N = {0, 1, 2, ...}?",
+          "type": "multiple",
+          "options": {
+            "a": "x < y",
+            "b": "x > y",
+            "c": "x ≤ y",
+            "d": "x ≥ y"
+          },
+          "correct_answers": [
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 3,
+          "points": null,
+          "question": "RSA je šifra.",
+          "type": "single",
+          "options": {
+            "a": "synchronní",
+            "b": "symetrická",
+            "c": "asynchronní",
+            "d": "asymetrická",
+            "e": "proudová"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 4,
+          "points": null,
+          "question": "Certifikát subjektu A obsahuje",
+          "type": "single",
+          "options": {
+            "a": "veřejný klíč A",
+            "b": "soukromý klíč A",
+            "c": "soukromý klíč certifikační autority",
+            "d": "symetrický klíč A"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 5,
+          "points": null,
+          "question": "Doplňte místo otazníku ten ze symbolů, aby platil vztah (lg n) / n = ?(1/√n):",
+          "type": "single",
+          "options": {
+            "a": "o",
+            "b": "O (a současně nelze použít ani o ani Θ)",
+            "c": "Θ",
+            "d": "Ω (a současně nelze použít ani Θ ani ω)",
+            "e": "ω"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 6,
+          "points": null,
+          "question": "Uvažujme binární relaci R = {(a,b), (b,a)} na množině X = {a,b,c}. Určete, která z následujících relací je ekvivalencí na X.",
+          "type": "single",
+          "options": {
+            "a": "R ∪ R⁻¹",
+            "b": "R⁺",
+            "c": "R ∪ Δ_X",
+            "d": "žádná z uvedených"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 7,
+          "points": null,
+          "question": "Který z následujících jazyků není regulární?",
+          "type": "single",
+          "options": {
+            "a": "L = {aᵐbⁿcᵏ : m,n,k ≥ 0}",
+            "b": "L = {aᵐbⁿ : m, n ≥ 0}",
+            "c": "L = {aⁿ : n ≥ 0}",
+            "d": "L = {aⁿbⁿ : n ≥ 0}"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 8,
+          "points": null,
+          "question": "Mějme gramatiku G = ({S,A,B}, {a,b,c,d}, P, S) s pravidly S → Aa | bS, A → cA | B, B → ε | dS. Tato gramatika je",
+          "type": "multiple",
+          "options": {
+            "a": "LL(1) gramatika",
+            "b": "LL(2) gramatika",
+            "c": "regulární gramatika",
+            "d": "gramatika generující regulární jazyk"
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 9,
+          "points": null,
+          "question": "Superpipeline dosahuje urychlení výpočtu programu pomocí:",
+          "type": "single",
+          "options": {
+            "a": "Urychlení hodinové frekvence tak, že se jednotlivé bloky proudového zpracování rozdělí na několik menších, které trvají kratší dobu.",
+            "b": "Zavedením paměti cache, do které se ukládají nejčastěji použitá data a instrukce.",
+            "c": "Zavedením vektorové jednotky, která umožní zpracovávat data instrukcí po blocích (vektorech).",
+            "d": "Několikanásobného paralelního proudového zpracování (počet cyklů na instrukci může být i menší než 1)."
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 10,
+          "points": null,
+          "question": "Instrukce skoku se (u procesoru s jednoadresovými instrukcemi) provede tak, že se adresní část instrukce zapíše:",
+          "type": "single",
+          "options": {
+            "a": "do programového čítače PC",
+            "b": "do ukazatele zásobníku SP",
+            "c": "do jiného registru",
+            "d": "do instrukčního registru IR"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 11,
+          "points": null,
+          "question": "Sekvenční obvod popsaný konečným automatem typu Moore má 2 vstupy, 3 vnitřní proměnné a 4 výstupy. Na těchto 4 výstupech se mohou objevit nejvýše:",
+          "type": "single",
+          "options": {
+            "a": "4 vzájemně různé čtveřice hodnot",
+            "b": "8 vzájemně různých čtveřic hodnot",
+            "c": "16 vzájemně různé čtveřic hodnot",
+            "d": "32 vzájemně různé čtveřic hodnot"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 12,
+          "points": null,
+          "question": "AES je standard pro",
+          "type": "multiple",
+          "options": {
+            "a": "proudovou šifru",
+            "b": "blokovou šifru",
+            "c": "symetrickou šifru",
+            "d": "asymetrickou šifru"
+          },
+          "correct_answers": [
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 13,
+          "points": null,
+          "question": "Pro všechny symetrické šifry platí, že",
+          "type": "single",
+          "options": {
+            "a": "šifrovací klíč je vždy stejný jako dešifrovací klíč",
+            "b": "šifrovací klíč se smí od dešifrovacího klíče lišit nejvýše polovinou bitů",
+            "c": "šifrovací klíč smí být stejný jako dešifrovací klíč pouze na OS, který podporuje symetrické šifrování",
+            "d": "šifrovací a dešifrovací klíč se dají navzájem snadno odvodit",
+            "e": "žádná z předchozích odpovědí není správná"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 14,
+          "points": null,
+          "question": "Příznak SF (sign flag – příznak znaménka) se po provedení operace sčítání nastaví na 1, když:",
+          "type": "single",
+          "options": {
+            "a": "bude přenos z nejvyššího řádu roven 1",
+            "b": "bude přenos do nejvyššího řádu roven 1",
+            "c": "bude bit v nejvyšším řádu výsledku roven 1",
+            "d": "budou mít oba sčítanci stejné znaménko a výsledek bude mít opačné znaménko"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 15,
+          "points": null,
+          "question": "Integritní omezení",
+          "type": "multiple",
+          "options": {
+            "a": "se definují pouze na úrovni konceptuálního modelu",
+            "b": "lze definovat na úrovni konceptuálního i databázového modelu",
+            "c": "jsou tvrzení, která vymezují, jaká data mohou být v databázi uložena",
+            "d": "se definují pouze v SQL"
+          },
+          "correct_answers": [
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 16,
+          "points": null,
+          "question": "Vybavovací doba hlavní paměti v současných počítačích činí řádově:",
+          "type": "single",
+          "options": {
+            "a": "nanosekundy",
+            "b": "mikrosekundy",
+            "c": "milisekundy",
+            "d": "sekundy"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 17,
+          "points": null,
+          "question": "Úkolem linkové vrstvy podle referenčního ISO/OSI modelu je mimo jiné:",
+          "type": "single",
+          "options": {
+            "a": "rozpoznat začátek a konec rámce",
+            "b": "rozlišit, který proces má v rámci jednoho počítače obdržet přijatý UDP paket",
+            "c": "směrovat rámce podle cílové IP adresy",
+            "d": "řešit časování přenášených bitů v komunikačním médiu"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 18,
+          "points": null,
+          "question": "Co nastane v tomto fragmentu C++ programu?\ndouble f(int a, double b) { return a+b }\nint f(int c, int d) { return a-b }\nint main(...) { int i=f(1,2.1F); ... }",
+          "type": "single",
+          "options": {
+            "a": "hodnota i bude -1",
+            "b": "hodnota i bude 3",
+            "c": "hodnota i bude -3.1",
+            "d": "nastane chyba při výpočtu",
+            "e": "nastane chyba při kompilaci"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 19,
+          "points": null,
+          "question": "Které z uvedených typů v C++ jsou kontejnery?",
+          "type": "multiple",
+          "options": {
+            "a": "pole (array)",
+            "b": "záznam (struct)",
+            "c": "pytel (bag)",
+            "d": "union",
+            "e": "tabulka (map)"
+          },
+          "correct_answers": [
+            "a",
+            "c",
+            "e"
+          ]
+        },
+        {
+          "id": 20,
+          "points": null,
+          "question": "Pokud zvolíme nejlepší známý algoritmus pro nalezení nejmenšího prvku v poli o n prvcích, jak bude doba nalezení minimálního prvku záviset na počtu prvků pole n?",
+          "type": "single",
+          "options": {
+            "a": "lineárně",
+            "b": "kvadraticky",
+            "c": "logaritmicky",
+            "d": "doba nalezení nezávisí na počtu prvků"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "title": "Přijímací test MSP FIT — vzorový test 2015",
+      "source_test_name": "Moodle q=637 (attempt review)",
+      "note": "Přepis z Moodle prohlídky pokusu (30. 10. 2014). Otázka „Vyplňte ID přihlášky\" je vynechána. Správné odpovědi vyznačeny ve zdrojovém PDF (✓).",
+      "questions": [
+        {
+          "id": 1,
+          "points": 4,
+          "question": "Součin A·B matic A ∈ ℝ^(m,n) a B ∈ ℝ^(s,t) je definován vždy, když platí:",
+          "type": "single",
+          "options": {
+            "a": "m = s a n = t",
+            "b": "m = t",
+            "c": "n = s",
+            "d": "m = n a s = t"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 2,
+          "points": 6,
+          "question": "Který z těchto souborů vektorů je lineárně nezávislý?",
+          "type": "single",
+          "options": {
+            "a": "sin²x, cos²x, 3 na lineárním prostoru funkcí",
+            "b": "0, 2x, sin x na lineárním prostoru funkcí",
+            "c": "1, 1+x, x², x³, x⁴ na lineárním prostoru polynomů",
+            "d": "1+x, x², 2+2x−x² na lineárním prostoru polynomů"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 3,
+          "points": 4,
+          "question": "Která z následujících formulí výrokové logiky je kontradikce?",
+          "type": "single",
+          "options": {
+            "a": "(A∨B) ⇔ (¬A∨¬B)",
+            "b": "(¬A∧B) ⇔ (A∧B)",
+            "c": "(A ⇒ ¬B) ⇔ (B∧A)",
+            "d": "(A∧B) ⇔ (¬A∧¬B)"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 4,
+          "points": 6,
+          "question": "Nalezněte negaci následující formule: (∀x)P(x) ⇒ ((∃y)Q(y)∨(∃z)¬R(z))",
+          "type": "single",
+          "options": {
+            "a": "(∃x)¬P(x) ∨ ((∀y)¬Q(y)∨(∀z)R(z))",
+            "b": "(∀x)P(x) ⇒ ((∀y)¬Q(y)∧(∀z)R(z))",
+            "c": "(∀x)P(x) ∧ ((∀y)¬Q(y)∧(∀z)R(z))",
+            "d": "(∃x)¬P(x) ∨ ((∀y)¬Q(y)∧(∀z)R(z))"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 5,
+          "points": 4,
+          "question": "Určete počet různých binárních relací na množině X = {a,b}.",
+          "type": "single",
+          "options": {
+            "a": "16",
+            "b": "žádné z uvedených",
+            "c": "9",
+            "d": "8"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 6,
+          "points": 6,
+          "question": "Určete počet různých ireflexivních binárních relací na množině X = {a,b,c}.",
+          "type": "single",
+          "options": {
+            "a": "64",
+            "b": "žádné z uvedených",
+            "c": "72",
+            "d": "48"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 7,
+          "points": 6,
+          "question": "Kolik čtyřznakových slov lze vytvořit z písmen A, B a C, když požadujeme, že v každém slově musí být aspoň jedno A a aspoň jedno B?",
+          "type": "single",
+          "options": {
+            "a": "50",
+            "b": "66",
+            "c": "24",
+            "d": "36"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 8,
+          "points": 4,
+          "question": "Systémový katalog obsahuje",
+          "type": "multiple",
+          "options": {
+            "a": "metadata — informace o struktuře databáze",
+            "b": "informace o uživatelích databáze a jejich právech",
+            "c": "informace potřebné pro zajištění transakčního zpracování (commit, rollback)",
+            "d": "informace potřebné pro zotavení systému po pádu"
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 9,
+          "points": 4,
+          "question": "Které z následujících synchronizačních technik jsou založeny na aktivním čekání a lze jimi synchronizovat procesy i vlákna?",
+          "type": "multiple",
+          "options": {
+            "a": "Monitory",
+            "b": "Podmíněné proměnné",
+            "c": "Instrukce TSL",
+            "d": "Petersonův algoritmus"
+          },
+          "correct_answers": [
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 10,
+          "points": 6,
+          "question": "Systém souborů FAT-32 pracuje s datovými bloky o velikosti 8 KB a odkaz na datový blok je 28-bitový. Jaká je maximální velikost souboru, který bychom mohli teoreticky na FAT-32/8 vytvořit?",
+          "type": "single",
+          "options": {
+            "a": "1 TB",
+            "b": "3 TB",
+            "c": "4 TB",
+            "d": "2 TB"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 11,
+          "points": 4,
+          "question": "Předpokládejme, že binární vyhledávací strom byl vytvořen postupným vložením čísel 3, 1, 4 a 2 v tomto pořadí. Potom platí:",
+          "type": "multiple",
+          "options": {
+            "a": "uzel obsahující hodnotu 2 je pravým (přímým) potomkem uzlu obsahujícího hodnotu 1",
+            "b": "uzel obsahující hodnotu 2 nemá levého (přímého) potomka",
+            "c": "uzel obsahující hodnotu 3 je pravým (přímým) potomkem uzlu obsahujícího hodnotu 2",
+            "d": "uzel obsahující hodnotu 2 je levým (přímým) potomkem uzlu obsahujícího hodnotu 3"
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 12,
+          "points": 4,
+          "question": "void ff(int x) {\n  if (x >= 0) ff(x-2);\n  abc(x);\n  if (x >= 0) ff(x-2);\n}\nDaná funkce ff je volána s parametrem 2: ff(2);. Funkce abc(x) je tedy celkem volána",
+          "type": "multiple",
+          "options": {
+            "a": "1 krát",
+            "b": "8 krát",
+            "c": "7 krát",
+            "d": "5 krát"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 13,
+          "points": 6,
+          "question": "Cyklická fronta je implementována pomocí pole F o velikosti n a indexů i (head) a j (tail). Pokud budeme uvažovat nejlepší známý algoritmus pro zjištění aktuálního počtu prvků ve frontě, kam bude patřit jeho složitost?",
+          "type": "multiple",
+          "options": {
+            "a": "Ω(1)",
+            "b": "Θ(1)",
+            "c": "Ω(n)",
+            "d": "Θ(n)"
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 14,
+          "points": 4,
+          "question": "Jak je možno implementovat frontu?",
+          "type": "multiple",
+          "options": {
+            "a": "dvousměrně řetězeným cyklickým seznamem",
+            "b": "rozšiřitelným polem",
+            "c": "jednosměrně zřetězeným seznamem s ukazateli na čelo fronty a konec fronty",
+            "d": "jednosměrně zřetězeným seznamem s ukazatelem na čelo fronty",
+            "e": "polem pevné délky"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "c",
+            "e"
+          ]
+        },
+        {
+          "id": 15,
+          "points": 6,
+          "question": "Mějme tabulku implementovanou pomocí rozptylování (hash table). Jaké jsou složitosti operací vložení řádku do tabulky, zrušení řádku v tabulce, čtení řádku tabulky za předpokladu, že v tabulce je velmi mnoho synonym?",
+          "type": "single",
+          "options": {
+            "a": "O(n), O(n), O(n)",
+            "b": "O(log n), O(n), O(1)",
+            "c": "O(log n), O(log n), O(log n)",
+            "d": "O(1), O(1), O(1)"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 16,
+          "points": 4,
+          "question": "Multiplikativní inverze čísla a modulo m je takové číslo b, pro které platí",
+          "type": "multiple",
+          "options": {
+            "a": "a+b je kongruentní s 0 modulo m",
+            "b": "ab je kongruentní s 1 modulo m",
+            "c": "ba je kongruentní s 1 modulo m",
+            "d": "b+a je kongruentní s 0 modulo m"
+          },
+          "correct_answers": [
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 17,
+          "points": 6,
+          "question": "Rabinův-Millerův test prvočíselnosti je",
+          "type": "single",
+          "options": {
+            "a": "probabilistický, a to tak, že když odpoví „složené\", tak je to jisté, a když odpoví „prvočíslo\", je to s pravděpodobností < 100 %",
+            "b": "probabilistický, a to tak, že když odpoví „prvočíslo\", tak je to jisté, a když odpoví „složené\", je to s pravděpodobností < 100 %",
+            "c": "deterministický, tj. přesně pozná, jestli je zadané číslo prvočíslem",
+            "d": "probabilistický, a to tak, že když odpoví „prvočíslo\" i když odpoví „složené\", je to s pravděpodobností < 100 %"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 18,
+          "points": 6,
+          "question": "Která následující tvrzení jsou pravdivá:",
+          "type": "multiple",
+          "options": {
+            "a": "„Single mode\" je typ optického vlákna.",
+            "b": "K jednomu privátnímu klíči si můžeme vygenerovat několik různých veřejných klíčů.",
+            "c": "Protokol UDP nezaručuje doručení zprávy.",
+            "d": "Poštovní server pro danou doménu je uveden v DNS v tzv. MX záznamu.",
+            "e": "Termín Autonomní systém (AS) je synonymem pro kolizní doménu."
+          },
+          "correct_answers": [
+            "a",
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 19,
+          "points": 4,
+          "question": "Mapa logické funkce 3 proměnných má",
+          "type": "single",
+          "options": {
+            "a": "3 políčka",
+            "b": "9 políček",
+            "c": "8 políček",
+            "d": "16 políček"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 20,
+          "points": 6,
+          "question": "Jaká organizace pamětí cache se používá v současných procesorech?",
+          "type": "single",
+          "options": {
+            "a": "používají se oba uvedené přístupy",
+            "b": "cache pro data a pro instrukce je vždy oddělená",
+            "c": "nepoužívá se žádný z uvedených přístupů",
+            "d": "cache pro data a pro instrukce je vždy společná"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "title": "Přijímací test MSP FIT — vzorový test 2016",
+      "source_test_name": "Moodle q=637 (náhled testu)",
+      "note": "Přepis z Moodle náhledu testu (29. 10. 2015). Otázka „Vyplňte ID přihlášky\" je vynechána. Správné odpovědi vyznačeny ve zdrojovém PDF („Správná odpověď\").",
+      "questions": [
+        {
+          "id": 1,
+          "points": 4,
+          "question": "Pro součiny čtvercových matic A, B, C ∈ ℝ^(n,n) neplatí",
+          "type": "single",
+          "options": {
+            "a": "(A·B)ᵀ = Bᵀ·Aᵀ",
+            "b": "(A+B)·C = A·C + B·C (distributivní zákon)",
+            "c": "A·(B·C) = (A·B)·C (asociativní zákon)",
+            "d": "A·B = B·A (komutativní zákon)"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 2,
+          "points": 6,
+          "question": "Na afinním prostoru dimenze 2 mějme homogenní souřadnice vzhledem k počátku O a bázi tvořené vektory b₁ a b₂. Matice ((0, -1, α), (1, 0, α), (0, 0, 1))",
+          "type": "single",
+          "options": {
+            "a": "je složením transformací posunu o hodnotu α ve směru b₂ a škálování",
+            "b": "nevyjadřuje afinní transformaci neboť její rozměr neodpovídá dimenzi afinního prostoru",
+            "c": "vyjadřuje transformaci pootočení souřadné soustavy o 90° a posun o hodnotu α ve směru b₂",
+            "d": "vyjadřuje transformaci záměny prvků báze (a tedy i první a druhé složky vektoru) a posun o hodnotu α ve směru b₂"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 3,
+          "points": 4,
+          "question": "Shefferův symbol ↑ (NAND) má následující význam: A↑B = ¬(A∧B). Vyberte, které vyjádření konjunkce pomocí Shefferova symbolu je správné:",
+          "type": "single",
+          "options": {
+            "a": "(A∧B) ⇔ ((A↑A)↑B)",
+            "b": "(A∧B) ⇔ ((A↑B)↑A)",
+            "c": "(A∧B) ⇔ ((A↑A)↑(B↑B))",
+            "d": "(A∧B) ⇔ ((A↑B)↑(A↑B))"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 4,
+          "points": 6,
+          "question": "Která z následujících formulí je negací formule (∀x)A(x) ⇒ ((∃u)B(u)∨(∃z)¬C(z))?",
+          "type": "single",
+          "options": {
+            "a": "(∃x)¬A(x) ∨ ((∀u)¬B(u)∨(∀z)C(z))",
+            "b": "(∀x)A(x) ⇒ ((∀u)¬B(u)∧(∀z)C(z))",
+            "c": "(∀x)A(x) ∧ ((∀u)¬B(u)∧(∀z)C(z))",
+            "d": "(∃x)¬A(x) ∨ ((∀u)¬B(u)∧(∀z)C(z))"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 5,
+          "points": 4,
+          "question": "Nechť A je množina o dvou prvcích. Kolik různých (úplných) zobrazení f: A → A splňuje rovnici (f∘f) = f?",
+          "type": "single",
+          "options": {
+            "a": "0",
+            "b": "4",
+            "c": "3",
+            "d": "2",
+            "e": "1"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 6,
+          "points": 6,
+          "question": "Uvažujme abecedu A = {a, b, c, d, …, y, z} (tj. A obsahuje 26 písmen malé latinské abecedy) a nechť w je pevně dané slovo nad touto abecedou délky 10 znaků. Určete počet různých slov délky 10 nad abecedou A, která se od zadaného slova w liší přesně ve dvou znacích:",
+          "type": "single",
+          "options": {
+            "a": "10 · 26²",
+            "b": "20 · 25",
+            "c": "45 · 26²",
+            "d": "45 · 25²"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 7,
+          "points": 6,
+          "question": "Určete počet různých antisymetrických binárních relací na množině X = {a,b,c}.",
+          "type": "single",
+          "options": {
+            "a": "216",
+            "b": "128",
+            "c": "žádné z uvedených",
+            "d": "256"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 8,
+          "points": 4,
+          "question": "Relační databázový model",
+          "type": "multiple",
+          "options": {
+            "a": "zavádí pojem identifikátor relace",
+            "b": "je relační proto, že definuje vztahy mezi tabulkami",
+            "c": "má jediný konstrukt — relaci, relace je množina n-tic",
+            "d": "povoluje, aby se v relaci vyskytovaly dvě naprosto totožné n-tice"
+          },
+          "correct_answers": [
+            "a",
+            "c"
+          ]
+        },
+        {
+          "id": 9,
+          "points": 4,
+          "question": "Které z následujících synchronizačních technik jsou založeny na blokování a lze jimi synchronizovat procesy i vlákna?",
+          "type": "multiple",
+          "options": {
+            "a": "Algoritmus striktního střídání",
+            "b": "Pštrosí algoritmus",
+            "c": "Bariéry",
+            "d": "Semafory"
+          },
+          "correct_answers": [
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 10,
+          "points": 6,
+          "question": "Uvažujme unixový systém souborů „ufs\", kde soubor je reprezentován inodem. Inode obsahuje 12 přímých blokových ukazatelů a po jednom jednonásobném, dvojnásobném a trojnásobném nepřímém blokovém ukazateli. Velikost datového bloku je 8 KB a ukazatel na datový blok má velikost 32 bitů. Adresáře zabírají pouze jeden datový blok. V paměti je pouze kořenový adresář, kolik diskových přístupů musíme udělat, abychom vytvořili hard link /A/B/link na soubor /X/Y/Z/f.txt?",
+          "type": "single",
+          "options": {
+            "a": "10",
+            "b": "12",
+            "c": "7",
+            "d": "6"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 11,
+          "points": 4,
+          "question": "int ff(int x, int y) {\n  if (y > 0) return ff(x, y-1) + 1;\n  return x;\n}\nTato funkce",
+          "type": "multiple",
+          "options": {
+            "a": "spočte rozdíl x − y, je-li y nezáporné",
+            "b": "pro kladná y vrátí y, jinak vrátí x",
+            "c": "vrátí hodnotu svého většího parametru",
+            "d": "sečte x a y, je-li y nezáporné"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 12,
+          "points": 4,
+          "question": "int ff(int x, int y) {\n  if (x < y) return ff(x+1, y);\n  return x;\n}\nFunkce",
+          "type": "multiple",
+          "options": {
+            "a": "vrátí maximální hodnotu z obou parametrů",
+            "b": "vrátí x+1",
+            "c": "buď hned vrátí první parametr nebo jen „do nekonečna\" volá sama sebe",
+            "d": "vrátí součet svých parametrů"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 13,
+          "points": 6,
+          "question": "Cyklická fronta je implementována pomocí pole F o velikosti n a indexů i (head) a j (tail). Pokud budeme uvažovat nejlepší známý algoritmus pro zjištění aktuálního počtu prvků ve frontě, kam bude patřit jeho složitost?",
+          "type": "multiple",
+          "options": {
+            "a": "Θ(n)",
+            "b": "Ω(1)",
+            "c": "Ω(n)",
+            "d": "Θ(1)"
+          },
+          "correct_answers": [
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 14,
+          "points": 4,
+          "question": "Která volání funkce f jsou chybná v C++?\nvoid f(double& x) { ... }",
+          "type": "multiple",
+          "options": {
+            "a": "const double a = 1.1F; ... f(a);",
+            "b": "double a = 1.1F; ... f(a);",
+            "c": "double a, b; ... f(a+b);",
+            "d": "f(1.1);",
+            "e": "float a = 1.1F; ... f(a);"
+          },
+          "correct_answers": [
+            "a",
+            "c",
+            "d",
+            "e"
+          ]
+        },
+        {
+          "id": 15,
+          "points": 6,
+          "question": "Co nastane v tomto fragmentu C++ programu?\ndouble f(int a, float b) { return a+b; }\nint    f(int c, int d)   { return a-b; }\nint main(...) {\n  ...\n  int i = f(1, 2.1);\n  ...\n}",
+          "type": "single",
+          "options": {
+            "a": "nastane chyba při výpočtu",
+            "b": "hodnota i bude −1",
+            "c": "nastane chyba při kompilaci",
+            "d": "hodnota i bude −3.1",
+            "e": "hodnota i bude 3"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 16,
+          "points": 4,
+          "question": "Multiplikativní inverze čísla a modulo m je takové číslo b, pro které platí",
+          "type": "multiple",
+          "options": {
+            "a": "ba je kongruentní s 1 modulo m",
+            "b": "a+b je kongruentní s 0 modulo m",
+            "c": "b+a je kongruentní s 0 modulo m",
+            "d": "ab je kongruentní s 1 modulo m"
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 17,
+          "points": 6,
+          "question": "Alice a Bob provádějí Diffie-Hellmanův algoritmus. Po výměně veřejných parametrů si jako další informaci pošlou",
+          "type": "single",
+          "options": {
+            "a": "modulární odmocninu",
+            "b": "modulární součet",
+            "c": "modulární mocninu",
+            "d": "modulární součin"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 18,
+          "points": 6,
+          "question": "Alice poslala e-mailem Bobovi dokument zašifrovaný asymetrickou šifrou. Bob použije k jeho rozšifrování:",
+          "type": "single",
+          "options": {
+            "a": "soukromý klíč Alice",
+            "b": "veřejný klíč Boba",
+            "c": "soukromý klíč Boba",
+            "d": "veřejný klíč Alice"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 19,
+          "points": 4,
+          "question": "Výstup multiplexoru se dvěma datovými vstupy D0 a D1 a jedním řídícím vstupem E popíšeme výrazem:",
+          "type": "single",
+          "options": {
+            "a": "/D0·/E + D1·E",
+            "b": "D0·/E + D1·E",
+            "c": "D0·E + D1·E",
+            "d": "D0·D1·E"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 20,
+          "points": 6,
+          "question": "Virtualizace adresního prostoru stránkováním má vlastnosti:",
+          "type": "multiple",
+          "options": {
+            "a": "stránkování způsobuje externí fragmentaci adresního prostoru",
+            "b": "stránky jsou jednotkou mapování z virtuálního adresního prostoru do fyzické paměti (hlavní paměti)",
+            "c": "každá stránka ve virtuálním adresním prostoru může mít libovolnou velikost",
+            "d": "stránky jsou jednotkou přenosu mezi diskem a hlavní pamětí — fyzickou pamětí"
+          },
+          "correct_answers": [
+            "b",
+            "d"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "title": "Vzorový přijímací test magisterského studia FIT ČVUT",
+      "source_test_name": "VzorTest-2",
+      "note": "Tento test (VzorTest-2) byl použit i v roce 2019. Správné odpovědi odvozeny z porovnání s jinými roky.",
+      "questions": [
+        {
+          "id": 1,
+          "points": 6,
+          "question": "Je dán regulární výraz V = ab(b + c)*aba. Minimální deterministický konečný automat bez zbytečných stavů, který přijímá jazyk popsaný tímto výrazem, má:",
+          "type": "single",
+          "options": {
+            "a": "4 stavy",
+            "b": "6 stavů",
+            "c": "5 stavů",
+            "d": "3 stavy"
+          },
+          "correct_answers": [
+            "b"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 2,
+          "points": 5,
+          "question": "Jazyk L = {aⁿbⁿ : n ≥ 0}",
+          "type": "single",
+          "options": {
+            "a": "lze přijímat zásobníkovým automatem.",
+            "b": "je regulární.",
+            "c": "lze přijímat konečným automatem.",
+            "d": "je totožný s jazykem popsaným regulárním výrazem a*b*."
+          },
+          "correct_answers": [
+            "a"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 3,
+          "points": 4,
+          "question": "Multiplikativní inverze čísla 3 modulo 6 je",
+          "type": "single",
+          "options": {
+            "a": "2",
+            "b": "3",
+            "c": "neexistuje",
+            "d": "-2"
+          },
+          "correct_answers": [
+            "c"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 4,
+          "points": 6,
+          "question": "Kryptografické hešovací funkce se používají",
+          "type": "multiple",
+          "options": {
+            "a": "pro autentizaci",
+            "b": "pro bezpečnou správu hesel",
+            "c": "pro zajištění integrity zprávy",
+            "d": "jako součást digitálního podpisu"
+          },
+          "correct_answers": [
+            "b",
+            "c",
+            "d"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 5,
+          "points": 6,
+          "question": "Transakční žurnál (logfile, WAL) v relační databázi obsahuje",
+          "type": "multiple",
+          "options": {
+            "a": "provedené DCL příkazy",
+            "b": "provedené DML příkazy",
+            "c": "změnové vektory",
+            "d": "provedené DDL příkazy",
+            "e": "synchronizační známku (SCN)"
+          },
+          "correct_answers": [
+            "c",
+            "e"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 6,
+          "points": 4,
+          "question": "Data Control Language (SQL DCL)",
+          "type": "multiple",
+          "options": {
+            "a": "obsahuje příkazy GRANT, REVOKE",
+            "b": "obsahuje příkazy ROLLBACK, GRANT",
+            "c": "obsahuje příkazy COMMIT, ROLLBACK",
+            "d": "obsahuje příkazy COMMIT, GRANT"
+          },
+          "correct_answers": [
+            "a"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 7,
+          "points": 6,
+          "question": "Nechť A a B jsou čtvercové matice se stejným počtem řádků. Která z následujících tvrzení jsou pravdivá?",
+          "type": "multiple",
+          "options": {
+            "a": "A je regulární právě když det A = det Aᵀ",
+            "b": "det(A · B) = det A · det B",
+            "c": "det A = det Aᵀ",
+            "d": "A je regulární právě když det A = 0"
+          },
+          "correct_answers": [
+            "b",
+            "c"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 8,
+          "points": 4,
+          "question": "Mějme vektorový prostor ℝ³ se standardním skalárním součinem. Určete úhel vektorů u = (1, 0, 2) a v = (2, π, -1):",
+          "type": "single",
+          "options": {
+            "a": "π",
+            "b": "-π",
+            "c": "0",
+            "d": "π/2"
+          },
+          "correct_answers": [
+            "d"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 9,
+          "points": 6,
+          "question": "Rozhodněte, které z následujících dvojic formulí výrokové logiky jsou logicky ekvivalentní.",
+          "type": "multiple",
+          "options": {
+            "a": "A ⇒ B  ;  ¬B ⇒ ¬A",
+            "b": "A ⇒ B  ;  ¬(A ∧ ¬B)",
+            "c": "A ⇒ B  ;  A ∨ ¬B",
+            "d": "A ⇒ B  ;  ¬A ∨ B"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 10,
+          "points": 4,
+          "question": "Nalezněte negaci formule predikátové logiky (∀x)(p(x) ⇒ q(x)).",
+          "type": "single",
+          "options": {
+            "a": "(∃x)(p(x) ∧ ¬q(x))",
+            "b": "(∃x)(p(x) ∧ q(x))",
+            "c": "(∀x)(¬p(x) ∨ q(x))",
+            "d": "(∀x)(¬q(x) ⇒ ¬q(x))"
+          },
+          "correct_answers": [
+            "a"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 11,
+          "points": 4,
+          "question": "Která z následujících tvrzení platí pro systém souborů FAT?",
+          "type": "single",
+          "options": {
+            "a": "Obsah souboru je uložen ve FAT tabulce.",
+            "b": "Velikost FAT tabulky není závislá na velikosti diskové oblasti.",
+            "c": "Velikost FAT tabulky je úměrná počtu datových bloků.",
+            "d": "FAT tabulka obsahuje atributy datových bloků."
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 12,
+          "points": 6,
+          "question": "Na diskové oblasti Z je systém souborů FAT. Adresáře zabírají pouze jeden datový blok. V paměti je pouze tabulka FAT a kořenový adresář. Kolik diskových přístupů čtení musíme minimálně udělat, abychom načetli první datový blok s obsahem souboru Z:\\A\\B\\file.txt?",
+          "type": "single",
+          "options": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 13,
+          "points": 4,
+          "question": "Zpracování binárního stromu v pořadí preorder se rozumí následující:",
+          "type": "multiple",
+          "options": {
+            "a": "zpracuje se nejprve kořen, pak jeho levý podstrom a pak pravý podstrom",
+            "b": "zpracují se prvky stromu ve stejném pořadí, v jakém byly do stromu vloženy",
+            "c": "zpracuje se nejprve levý podstrom, pak pravý podstrom a pak kořen",
+            "d": "zpracují se prvky stromu v uspořádání zleva doprava"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 14,
+          "points": 4,
+          "question": "Které z následujících adres jsou platnými adresami v protokolu IPv4:",
+          "type": "multiple",
+          "options": {
+            "a": "12.345.67.89",
+            "b": "123.4.5.6",
+            "c": "123.4.56.789",
+            "d": "1.234.56.78"
+          },
+          "correct_answers": [
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 15,
+          "points": 6,
+          "question": "Která následující tvrzení jsou pravdivá:",
+          "type": "multiple",
+          "options": {
+            "a": "Protokoly TCP a UDP pracují na 3. (síťové) vrstvě modelu ISO/OSI.",
+            "b": "Ukončení spojení v protokolu UDP není explicitně oznamováno.",
+            "c": "Navázání spojení v protokolu UDP je realizováno přenosem celkem 3 paketů.",
+            "d": "Protokol TCP může posílat do sítě další fragmenty dat, i když ještě nebyl příjem naposledy odeslaných dat potvrzen."
+          },
+          "correct_answers": [
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 16,
+          "points": 4,
+          "question": "Které z následujících spojitých rozdělení nemá paměť?",
+          "type": "single",
+          "options": {
+            "a": "Exponenciální rozdělení.",
+            "b": "Normální rozdělení.",
+            "c": "Rovnoměrné rozdělení.",
+            "d": "Rozdělení Chi-kvadrát."
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 17,
+          "points": 6,
+          "question": "Ve sportovní základní škole je 40% děvčat. Z dívek 20% a z chlapců 10% reprezentuje školu ve školním týmu košíkové. Vybereme náhodně jednoho žáka ze školního týmu košíkové. Jaká je pravděpodobnost, že vybraný žák je chlapec?",
+          "type": "single",
+          "options": {
+            "a": "6/15",
+            "b": "6/14",
+            "c": "8/15",
+            "d": "8/14"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 18,
+          "points": 4,
+          "question": "Interpretace osmibitového operandu 1011 0101 v přímém kódu je:",
+          "type": "multiple",
+          "options": {
+            "a": "-35 (hexadecimálně)",
+            "b": "-35 (desítkově)",
+            "c": "+181 (desítkově)",
+            "d": "-53 (desítkově)"
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 19,
+          "points": 5,
+          "question": "Uvažujme binární relaci R = {(a,b),(b,a)} na množině X = {a,b,c}. Určete, pro které z následujících relací S je relace R ∪ S ekvivalencí na X (symbolem Δ_X označujeme relaci identita na množině X).",
+          "type": "multiple",
+          "options": {
+            "a": "S = {(a,a),(b,b)}",
+            "b": "žádná z uvedených",
+            "c": "S = {(c,b),(b,c)}",
+            "d": "S = Δ_X"
+          },
+          "correct_answers": [
+            "d"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 20,
+          "points": 6,
+          "question": "Uvažujme binární relaci R = {(a,b),(b,c),(c,a)} na množině X = {a,b,c}. Určete, která z následujících relací je ekvivalencí na X (symbolem Δ_X označujeme relaci identita na množině X, symbol R⁺ značí tranzitivní uzávěr relace R).",
+          "type": "single",
+          "options": {
+            "a": "R⁺",
+            "b": "R ∪ Δ_X",
+            "c": "R ∪ R⁻¹",
+            "d": "žádná z uvedených"
+          },
+          "correct_answers": [
+            "b"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "title": "Vzorový přijímací test magisterského studia FIT ČVUT",
+      "source_test_name": "VzorTest-1",
+      "note": "Tento test (VzorTest-1) byl použit i v letech 2020 a 2021. Správné odpovědi ověřeny z roku 2021.",
+      "questions": [
+        {
+          "id": 1,
+          "points": 4,
+          "question": "Jazyk L = {aⁿbⁿ : 0 ≤ n ≤ 8}",
+          "type": "multiple",
+          "options": {
+            "a": "lze přijímat konečným automatem.",
+            "b": "lze generovat gramatikou neobsahující rekurzi.",
+            "c": "obsahuje řetězec aabbb.",
+            "d": "obsahuje řetězec aabb."
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 2,
+          "points": 6,
+          "question": "Mějme dva nedeterministické konečné automaty A1 a A2. O jejich ekvivalenci platí, že:",
+          "type": "multiple",
+          "options": {
+            "a": "o ekvivalenci lze vždy algoritmicky rozhodnout.",
+            "b": "pokud mají tyto automaty různý počet koncových stavů, nemohou být ekvivalentní.",
+            "c": "pokud mají tyto automaty různý počet stavů, nemohou být ekvivalentní.",
+            "d": "pokud je počáteční stav automatu A1 koncový a žádný počáteční stav automatu A2 není koncový, pak A1 a A2 nemohou být ekvivalentní."
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 3,
+          "points": 4,
+          "question": "RSA je šifra",
+          "type": "single",
+          "options": {
+            "a": "synchronní",
+            "b": "symetrická",
+            "c": "asynchronní",
+            "d": "asymetrická",
+            "e": "proudová"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 4,
+          "points": 4,
+          "question": "Systémový katalog relační databáze obsahuje",
+          "type": "multiple",
+          "options": {
+            "a": "metadata - informace o struktuře databáze",
+            "b": "informace, potřebné pro zajištění transakčního zpracování (commit, rollback)",
+            "c": "informace, potřebné pro zotavení systému po pádu",
+            "d": "informace o uživatelích databáze a jejich právech"
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 5,
+          "points": 6,
+          "question": "Klíč relace v relační databázi má tyto vlastnosti:",
+          "type": "multiple",
+          "options": {
+            "a": "hodnota klíče v n-tici jednoznačně určuje celou n-tici",
+            "b": "jeho tranzitivní uzávěr obsahuje všechny atributy relace",
+            "c": "vyskytuje se vždy pouze na levé straně funkční závislosti",
+            "d": "tranzitivní uzávěr některé jeho podmnožiny obsahuje všechny atributy relace"
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 6,
+          "points": 4,
+          "question": "Jakou dimenzi má lineární vektorový prostor matic ℝᵐˣⁿ?",
+          "type": "single",
+          "options": {
+            "a": "m + n",
+            "b": "m · n",
+            "c": "m² + n²",
+            "d": "Žádná z ostatních odpovědí není správná."
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 7,
+          "points": 6,
+          "question": "Hodnost matice je rovna:",
+          "type": "multiple",
+          "options": {
+            "a": "počtu nenulových řádků matice",
+            "b": "počtu nenulových čísel na diagonále matice",
+            "c": "počtu lineárně závislých řádků matice",
+            "d": "hodnosti transponované matice"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 8,
+          "points": 4,
+          "question": "Zjednodušte formuli výrokové logiky B ∧ (A ∨ ¬(¬B ∨ A)).",
+          "type": "single",
+          "options": {
+            "a": "B",
+            "b": "B ∧ A",
+            "c": "B ∧ ¬A",
+            "d": "B ∨ ¬A"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 9,
+          "points": 6,
+          "question": "Které z následujících formulí jsou logickými důsledky formule ¬(∀x)p(x)? (p(x) je unární predikát).",
+          "type": "multiple",
+          "options": {
+            "a": "(∃x)¬p(x)",
+            "b": "(∃y)¬p(y)",
+            "c": "(∀x)¬p(x)",
+            "d": "(∀y)¬p(y)"
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 10,
+          "points": 4,
+          "question": "Které z následujících synchronizačních technik jsou založeny na blokování a lze jimi synchronizovat procesy nebo vlákna?",
+          "type": "multiple",
+          "options": {
+            "a": "Semafory",
+            "b": "Algoritmus striktního střídání",
+            "c": "Pštrosí algoritmus",
+            "d": "Bariéry"
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 11,
+          "points": 6,
+          "question": "Pevný disk má rychlost otáček 5000 RPM. Jaké bude průměrné rotační zpoždění při čtení jednoho sektoru?",
+          "type": "single",
+          "options": {
+            "a": "0ms",
+            "b": "3ms",
+            "c": "6ms",
+            "d": "12ms"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 12,
+          "points": 4,
+          "question": "void ff(int x) { if (x > 0) ff(x-1); abc(x); if (x > 0) ff(x-1); }\nDaná funkce ff je volána s parametrem 2: ff(2). Funkce abc(x) je tedy celkem volána",
+          "type": "multiple",
+          "options": {
+            "a": "7 krát",
+            "b": "1 krát",
+            "c": "5 krát",
+            "d": "8 krát"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 13,
+          "points": 6,
+          "question": "Mějme datový typ množina implementovaný charakteristickým vektorem. Jaké jsou složitosti operací test existence prvku, vložení prvku, odebrání prvku pro množinu n prvků?",
+          "type": "single",
+          "options": {
+            "a": "Θ(1), Θ(n), Θ(n)",
+            "b": "Θ(n), Θ(n), Θ(n)",
+            "c": "Θ(1), Θ(1), Θ(1)",
+            "d": "Θ(log n), Θ(n), Θ(n)"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 14,
+          "points": 6,
+          "question": "Síťový protokol UDP se od protokolu TCP liší mimo jiné tím, že:",
+          "type": "multiple",
+          "options": {
+            "a": "nepotvrzuje doručení paketu",
+            "b": "neřeší problém duplicitních paketů",
+            "c": "uzavírá najednou obě strany kanálu",
+            "d": "nemá \"hand shake\" při otevírání spojení"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 15,
+          "points": 4,
+          "question": "Síť, ve které lze přidělit IPv4 adresy v rozsahu 19.11.32.1 až 19.11.32.254, má adresu a masku:",
+          "type": "single",
+          "options": {
+            "a": "19.11.32.0/20",
+            "b": "19.11.32.0/22",
+            "c": "19.11.32.0/24",
+            "d": "19.11.0.0/32"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 16,
+          "points": 4,
+          "question": "Pro dva disjunktní jevy platí, že",
+          "type": "single",
+          "options": {
+            "a": "jsou vždy nezávislé",
+            "b": "nemohou nikdy být nezávislé",
+            "c": "mohou být nezávislé pouze tehdy, když alespoň jeden z jevů je nemožný",
+            "d": "žádná z ostatních odpovědí není správná"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 17,
+          "points": 6,
+          "question": "Vyberte pravdivá tvrzení:",
+          "type": "multiple",
+          "options": {
+            "a": "Výběrový průměr je vychýleným odhadem střední hodnoty.",
+            "b": "Střední hodnota nestranného odhadu je rovna skutečné hodnotě odhadovaného parametru.",
+            "c": "Výběrový rozptyl s² = (1/(n-1)) · Σ(Xᵢ - X̄ₙ)² je nestranným odhadem rozptylu.",
+            "d": "Výběrová kovariance je bodovým odhadem rozptylu."
+          },
+          "correct_answers": [
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 18,
+          "points": 4,
+          "question": "Vyberte všechna správná tvrzení:",
+          "type": "multiple",
+          "options": {
+            "a": "aritmetický posuv vlevo o jeden bit odpovídá násobení dvěma",
+            "b": "aritmetický posuv vlevo o dva bity odpovídá násobení čtyřmi",
+            "c": "aritmetický posuv vpravo o jeden bit odpovídá násobení dvěma",
+            "d": "aritmetický posuv vpravo o jeden bit odpovídá dělení dvěma"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 19,
+          "points": 6,
+          "question": "Sečtěte dvě osmibitová čísla FF a 01 vyjádřené v šestnáctkové soustavě pomocí 8 bitové sčítačky. Jak budeme interpretovat výsledek součtu za předpokladu, že operandy i výsledek jsou čísla v doplňkovém kódu?",
+          "type": "single",
+          "options": {
+            "a": "256 desítkově",
+            "b": "Součet nelze správně zobrazit, nevejde se do 8 bitů (dochází k přetečení)",
+            "c": "0 desítkově",
+            "d": "100 (šestnáctkově)"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 20,
+          "points": 4,
+          "question": "Nechť A, B, C jsou nějaké množiny. Pokud je to možné, dosaďte za otazník z nabídky operací takovou aby platila rovnost A \\ (B \\ C) = (A \\ B) ? C (symbol \\ vyjadřuje operaci rozdílu množin).",
+          "type": "single",
+          "options": {
+            "a": "\\",
+            "b": "∪",
+            "c": "∩",
+            "d": "rovnost neplatí pro žádnou z uvedených operací"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 21,
+          "points": 6,
+          "question": "Určete počet všech přirozených čísel z intervalu <1, 2304>, která jsou nesoudělná s číslem 2304.",
+          "type": "single",
+          "options": {
+            "a": "255",
+            "b": "768",
+            "c": "1152",
+            "d": "1567",
+            "e": "2303"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 22,
+          "points": 6,
+          "question": "V okruhu zbytkových tříd ⟨Z₁₃₈, +, ×⟩ určete multiplikativní inverzi k prvku 97 (pokud neexistuje, uveďte 0).",
+          "type": "open",
+          "options": {},
+          "correct_answers": [
+            "37"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "title": "Vzorový přijímací test magisterského studia FIT ČVUT",
+      "source_test_name": "VzorTest-2",
+      "note": "Shodný test jako rok 2017 (VzorTest-2). Správné odpovědi odvozeny z porovnání s jinými roky.",
+      "questions": [
+        {
+          "id": 1,
+          "points": 6,
+          "question": "Je dán regulární výraz V = ab(b + c)*aba. Minimální deterministický konečný automat bez zbytečných stavů, který přijímá jazyk popsaný tímto výrazem, má:",
+          "type": "single",
+          "options": {
+            "a": "4 stavy",
+            "b": "6 stavů",
+            "c": "5 stavů",
+            "d": "3 stavy"
+          },
+          "correct_answers": [
+            "b"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 2,
+          "points": 5,
+          "question": "Jazyk L = {aⁿbⁿ : n ≥ 0}",
+          "type": "single",
+          "options": {
+            "a": "lze přijímat zásobníkovým automatem.",
+            "b": "je regulární.",
+            "c": "lze přijímat konečným automatem.",
+            "d": "je totožný s jazykem popsaným regulárním výrazem a*b*."
+          },
+          "correct_answers": [
+            "a"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 3,
+          "points": 4,
+          "question": "Multiplikativní inverze čísla 3 modulo 6 je",
+          "type": "single",
+          "options": {
+            "a": "2",
+            "b": "3",
+            "c": "neexistuje",
+            "d": "-2"
+          },
+          "correct_answers": [
+            "c"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 4,
+          "points": 6,
+          "question": "Kryptografické hešovací funkce se používají",
+          "type": "multiple",
+          "options": {
+            "a": "pro autentizaci",
+            "b": "pro bezpečnou správu hesel",
+            "c": "pro zajištění integrity zprávy",
+            "d": "jako součást digitálního podpisu"
+          },
+          "correct_answers": [
+            "b",
+            "c",
+            "d"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 5,
+          "points": 6,
+          "question": "Transakční žurnál (logfile, WAL) v relační databázi obsahuje",
+          "type": "multiple",
+          "options": {
+            "a": "provedené DCL příkazy",
+            "b": "provedené DML příkazy",
+            "c": "změnové vektory",
+            "d": "provedené DDL příkazy",
+            "e": "synchronizační známku (SCN)"
+          },
+          "correct_answers": [
+            "c",
+            "e"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 6,
+          "points": 4,
+          "question": "Data Control Language (SQL DCL)",
+          "type": "multiple",
+          "options": {
+            "a": "obsahuje příkazy GRANT, REVOKE",
+            "b": "obsahuje příkazy ROLLBACK, GRANT",
+            "c": "obsahuje příkazy COMMIT, ROLLBACK",
+            "d": "obsahuje příkazy COMMIT, GRANT"
+          },
+          "correct_answers": [
+            "a"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 7,
+          "points": 6,
+          "question": "Nechť A a B jsou čtvercové matice se stejným počtem řádků. Která z následujících tvrzení jsou pravdivá?",
+          "type": "multiple",
+          "options": {
+            "a": "A je regulární právě když det A = det Aᵀ",
+            "b": "det(A · B) = det A · det B",
+            "c": "det A = det Aᵀ",
+            "d": "A je regulární právě když det A = 0"
+          },
+          "correct_answers": [
+            "b",
+            "c"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 8,
+          "points": 4,
+          "question": "Mějme vektorový prostor ℝ³ se standardním skalárním součinem. Určete úhel vektorů u = (1, 0, 2) a v = (2, π, -1):",
+          "type": "single",
+          "options": {
+            "a": "π",
+            "b": "-π",
+            "c": "0",
+            "d": "π/2"
+          },
+          "correct_answers": [
+            "d"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 9,
+          "points": 6,
+          "question": "Rozhodněte, které z následujících dvojic formulí výrokové logiky jsou logicky ekvivalentní.",
+          "type": "multiple",
+          "options": {
+            "a": "A ⇒ B  ;  ¬B ⇒ ¬A",
+            "b": "A ⇒ B  ;  ¬(A ∧ ¬B)",
+            "c": "A ⇒ B  ;  A ∨ ¬B",
+            "d": "A ⇒ B  ;  ¬A ∨ B"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 10,
+          "points": 4,
+          "question": "Nalezněte negaci formule predikátové logiky (∀x)(p(x) ⇒ q(x)).",
+          "type": "single",
+          "options": {
+            "a": "(∃x)(p(x) ∧ ¬q(x))",
+            "b": "(∃x)(p(x) ∧ q(x))",
+            "c": "(∀x)(¬p(x) ∨ q(x))",
+            "d": "(∀x)(¬q(x) ⇒ ¬q(x))"
+          },
+          "correct_answers": [
+            "a"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 11,
+          "points": 4,
+          "question": "Která z následujících tvrzení platí pro systém souborů FAT?",
+          "type": "single",
+          "options": {
+            "a": "Obsah souboru je uložen ve FAT tabulce.",
+            "b": "Velikost FAT tabulky není závislá na velikosti diskové oblasti.",
+            "c": "Velikost FAT tabulky je úměrná počtu datových bloků.",
+            "d": "FAT tabulka obsahuje atributy datových bloků."
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 12,
+          "points": 6,
+          "question": "Na diskové oblasti Z je systém souborů FAT. Adresáře zabírají pouze jeden datový blok. V paměti je pouze tabulka FAT a kořenový adresář. Kolik diskových přístupů čtení musíme minimálně udělat, abychom načetli první datový blok s obsahem souboru Z:\\A\\B\\file.txt?",
+          "type": "single",
+          "options": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "3"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 13,
+          "points": 4,
+          "question": "Zpracování binárního stromu v pořadí preorder se rozumí následující:",
+          "type": "multiple",
+          "options": {
+            "a": "zpracuje se nejprve kořen, pak jeho levý podstrom a pak pravý podstrom",
+            "b": "zpracují se prvky stromu ve stejném pořadí, v jakém byly do stromu vloženy",
+            "c": "zpracuje se nejprve levý podstrom, pak pravý podstrom a pak kořen",
+            "d": "zpracují se prvky stromu v uspořádání zleva doprava"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 14,
+          "points": 4,
+          "question": "Které z následujících adres jsou platnými adresami v protokolu IPv4:",
+          "type": "multiple",
+          "options": {
+            "a": "12.345.67.89",
+            "b": "123.4.5.6",
+            "c": "123.4.56.789",
+            "d": "1.234.56.78"
+          },
+          "correct_answers": [
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 15,
+          "points": 6,
+          "question": "Která následující tvrzení jsou pravdivá:",
+          "type": "multiple",
+          "options": {
+            "a": "Protokoly TCP a UDP pracují na 3. (síťové) vrstvě modelu ISO/OSI.",
+            "b": "Ukončení spojení v protokolu UDP není explicitně oznamováno.",
+            "c": "Navázání spojení v protokolu UDP je realizováno přenosem celkem 3 paketů.",
+            "d": "Protokol TCP může posílat do sítě další fragmenty dat, i když ještě nebyl příjem naposledy odeslaných dat potvrzen."
+          },
+          "correct_answers": [
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 16,
+          "points": 4,
+          "question": "Které z následujících spojitých rozdělení nemá paměť?",
+          "type": "single",
+          "options": {
+            "a": "Exponenciální rozdělení.",
+            "b": "Normální rozdělení.",
+            "c": "Rovnoměrné rozdělení.",
+            "d": "Rozdělení Chi-kvadrát."
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 17,
+          "points": 6,
+          "question": "Ve sportovní základní škole je 40% děvčat. Z dívek 20% a z chlapců 10% reprezentuje školu ve školním týmu košíkové. Vybereme náhodně jednoho žáka ze školního týmu košíkové. Jaká je pravděpodobnost, že vybraný žák je chlapec?",
+          "type": "single",
+          "options": {
+            "a": "6/15",
+            "b": "6/14",
+            "c": "8/15",
+            "d": "8/14"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 18,
+          "points": 4,
+          "question": "Interpretace osmibitového operandu 1011 0101 v přímém kódu je:",
+          "type": "multiple",
+          "options": {
+            "a": "-35 (hexadecimálně)",
+            "b": "-35 (desítkově)",
+            "c": "+181 (desítkově)",
+            "d": "-53 (desítkově)"
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 19,
+          "points": 5,
+          "question": "Uvažujme binární relaci R = {(a,b),(b,a)} na množině X = {a,b,c}. Určete, pro které z následujících relací S je relace R ∪ S ekvivalencí na X (symbolem Δ_X označujeme relaci identita na množině X).",
+          "type": "multiple",
+          "options": {
+            "a": "S = {(a,a),(b,b)}",
+            "b": "žádná z uvedených",
+            "c": "S = {(c,b),(b,c)}",
+            "d": "S = Δ_X"
+          },
+          "correct_answers": [
+            "d"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        },
+        {
+          "id": 20,
+          "points": 6,
+          "question": "Uvažujme binární relaci R = {(a,b),(b,c),(c,a)} na množině X = {a,b,c}. Určete, která z následujících relací je ekvivalencí na X (symbolem Δ_X označujeme relaci identita na množině X, symbol R⁺ značí tranzitivní uzávěr relace R).",
+          "type": "single",
+          "options": {
+            "a": "R⁺",
+            "b": "R ∪ Δ_X",
+            "c": "R ∪ R⁻¹",
+            "d": "žádná z uvedených"
+          },
+          "correct_answers": [
+            "b"
+          ],
+          "note": "Pořadí možností se může lišit v originálním testu"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "title": "Vzorový přijímací test magisterského studia FIT ČVUT",
+      "source_test_name": "VzorTest-1",
+      "note": "Shodný test jako roky 2018 a 2021 (VzorTest-1).",
+      "questions": [
+        {
+          "id": 1,
+          "points": 4,
+          "question": "Jazyk L = {aⁿbⁿ : 0 ≤ n ≤ 8}",
+          "type": "multiple",
+          "options": {
+            "a": "lze přijímat konečným automatem.",
+            "b": "lze generovat gramatikou neobsahující rekurzi.",
+            "c": "obsahuje řetězec aabbb.",
+            "d": "obsahuje řetězec aabb."
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 2,
+          "points": 6,
+          "question": "Mějme dva nedeterministické konečné automaty A1 a A2. O jejich ekvivalenci platí, že:",
+          "type": "multiple",
+          "options": {
+            "a": "o ekvivalenci lze vždy algoritmicky rozhodnout.",
+            "b": "pokud mají tyto automaty různý počet koncových stavů, nemohou být ekvivalentní.",
+            "c": "pokud mají tyto automaty různý počet stavů, nemohou být ekvivalentní.",
+            "d": "pokud je počáteční stav automatu A1 koncový a žádný počáteční stav automatu A2 není koncový, pak A1 a A2 nemohou být ekvivalentní."
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 3,
+          "points": 4,
+          "question": "RSA je šifra",
+          "type": "single",
+          "options": {
+            "a": "synchronní",
+            "b": "symetrická",
+            "c": "asynchronní",
+            "d": "asymetrická",
+            "e": "proudová"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 4,
+          "points": 4,
+          "question": "Systémový katalog relační databáze obsahuje",
+          "type": "multiple",
+          "options": {
+            "a": "metadata - informace o struktuře databáze",
+            "b": "informace, potřebné pro zajištění transakčního zpracování (commit, rollback)",
+            "c": "informace, potřebné pro zotavení systému po pádu",
+            "d": "informace o uživatelích databáze a jejich právech"
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 5,
+          "points": 6,
+          "question": "Klíč relace v relační databázi má tyto vlastnosti:",
+          "type": "multiple",
+          "options": {
+            "a": "hodnota klíče v n-tici jednoznačně určuje celou n-tici",
+            "b": "jeho tranzitivní uzávěr obsahuje všechny atributy relace",
+            "c": "vyskytuje se vždy pouze na levé straně funkční závislosti",
+            "d": "tranzitivní uzávěr některé jeho podmnožiny obsahuje všechny atributy relace"
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 6,
+          "points": 4,
+          "question": "Jakou dimenzi má lineární vektorový prostor matic ℝᵐˣⁿ?",
+          "type": "single",
+          "options": {
+            "a": "m + n",
+            "b": "m · n",
+            "c": "m² + n²",
+            "d": "Žádná z ostatních odpovědí není správná."
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 7,
+          "points": 6,
+          "question": "Hodnost matice je rovna:",
+          "type": "multiple",
+          "options": {
+            "a": "počtu nenulových řádků matice",
+            "b": "počtu nenulových čísel na diagonále matice",
+            "c": "počtu lineárně závislých řádků matice",
+            "d": "hodnosti transponované matice"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 8,
+          "points": 4,
+          "question": "Zjednodušte formuli výrokové logiky B ∧ (A ∨ ¬(¬B ∨ A)).",
+          "type": "single",
+          "options": {
+            "a": "B",
+            "b": "B ∧ A",
+            "c": "B ∧ ¬A",
+            "d": "B ∨ ¬A"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 9,
+          "points": 6,
+          "question": "Které z následujících formulí jsou logickými důsledky formule ¬(∀x)p(x)? (p(x) je unární predikát).",
+          "type": "multiple",
+          "options": {
+            "a": "(∃x)¬p(x)",
+            "b": "(∃y)¬p(y)",
+            "c": "(∀x)¬p(x)",
+            "d": "(∀y)¬p(y)"
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 10,
+          "points": 4,
+          "question": "Které z následujících synchronizačních technik jsou založeny na blokování a lze jimi synchronizovat procesy nebo vlákna?",
+          "type": "multiple",
+          "options": {
+            "a": "Semafory",
+            "b": "Algoritmus striktního střídání",
+            "c": "Pštrosí algoritmus",
+            "d": "Bariéry"
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 11,
+          "points": 6,
+          "question": "Pevný disk má rychlost otáček 5000 RPM. Jaké bude průměrné rotační zpoždění při čtení jednoho sektoru?",
+          "type": "single",
+          "options": {
+            "a": "0ms",
+            "b": "3ms",
+            "c": "6ms",
+            "d": "12ms"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 12,
+          "points": 4,
+          "question": "void ff(int x) { if (x > 0) ff(x-1); abc(x); if (x > 0) ff(x-1); }\nDaná funkce ff je volána s parametrem 2: ff(2). Funkce abc(x) je tedy celkem volána",
+          "type": "multiple",
+          "options": {
+            "a": "7 krát",
+            "b": "1 krát",
+            "c": "5 krát",
+            "d": "8 krát"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 13,
+          "points": 6,
+          "question": "Mějme datový typ množina implementovaný charakteristickým vektorem. Jaké jsou složitosti operací test existence prvku, vložení prvku, odebrání prvku pro množinu n prvků?",
+          "type": "single",
+          "options": {
+            "a": "Θ(1), Θ(n), Θ(n)",
+            "b": "Θ(n), Θ(n), Θ(n)",
+            "c": "Θ(1), Θ(1), Θ(1)",
+            "d": "Θ(log n), Θ(n), Θ(n)"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 14,
+          "points": 6,
+          "question": "Síťový protokol UDP se od protokolu TCP liší mimo jiné tím, že:",
+          "type": "multiple",
+          "options": {
+            "a": "nepotvrzuje doručení paketu",
+            "b": "neřeší problém duplicitních paketů",
+            "c": "uzavírá najednou obě strany kanálu",
+            "d": "nemá \"hand shake\" při otevírání spojení"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 15,
+          "points": 4,
+          "question": "Síť, ve které lze přidělit IPv4 adresy v rozsahu 19.11.32.1 až 19.11.32.254, má adresu a masku:",
+          "type": "single",
+          "options": {
+            "a": "19.11.32.0/20",
+            "b": "19.11.32.0/22",
+            "c": "19.11.32.0/24",
+            "d": "19.11.0.0/32"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 16,
+          "points": 4,
+          "question": "Pro dva disjunktní jevy platí, že",
+          "type": "single",
+          "options": {
+            "a": "jsou vždy nezávislé",
+            "b": "nemohou nikdy být nezávislé",
+            "c": "mohou být nezávislé pouze tehdy, když alespoň jeden z jevů je nemožný",
+            "d": "žádná z ostatních odpovědí není správná"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 17,
+          "points": 6,
+          "question": "Vyberte pravdivá tvrzení:",
+          "type": "multiple",
+          "options": {
+            "a": "Výběrový průměr je vychýleným odhadem střední hodnoty.",
+            "b": "Střední hodnota nestranného odhadu je rovna skutečné hodnotě odhadovaného parametru.",
+            "c": "Výběrový rozptyl s² = (1/(n-1)) · Σ(Xᵢ - X̄ₙ)² je nestranným odhadem rozptylu.",
+            "d": "Výběrová kovariance je bodovým odhadem rozptylu."
+          },
+          "correct_answers": [
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 18,
+          "points": 4,
+          "question": "Vyberte všechna správná tvrzení:",
+          "type": "multiple",
+          "options": {
+            "a": "aritmetický posuv vlevo o jeden bit odpovídá násobení dvěma",
+            "b": "aritmetický posuv vlevo o dva bity odpovídá násobení čtyřmi",
+            "c": "aritmetický posuv vpravo o jeden bit odpovídá násobení dvěma",
+            "d": "aritmetický posuv vpravo o jeden bit odpovídá dělení dvěma"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 19,
+          "points": 6,
+          "question": "Sečtěte dvě osmibitová čísla FF a 01 vyjádřené v šestnáctkové soustavě pomocí 8 bitové sčítačky. Jak budeme interpretovat výsledek součtu za předpokladu, že operandy i výsledek jsou čísla v doplňkovém kódu?",
+          "type": "single",
+          "options": {
+            "a": "256 desítkově",
+            "b": "Součet nelze správně zobrazit, nevejde se do 8 bitů (dochází k přetečení)",
+            "c": "0 desítkově",
+            "d": "100 (šestnáctkově)"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 20,
+          "points": 4,
+          "question": "Nechť A, B, C jsou nějaké množiny. Pokud je to možné, dosaďte za otazník z nabídky operací takovou aby platila rovnost A \\ (B \\ C) = (A \\ B) ? C (symbol \\ vyjadřuje operaci rozdílu množin).",
+          "type": "single",
+          "options": {
+            "a": "\\",
+            "b": "∪",
+            "c": "∩",
+            "d": "rovnost neplatí pro žádnou z uvedených operací"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 21,
+          "points": 6,
+          "question": "Určete počet všech přirozených čísel z intervalu <1, 2304>, která jsou nesoudělná s číslem 2304.",
+          "type": "single",
+          "options": {
+            "a": "255",
+            "b": "768",
+            "c": "1152",
+            "d": "1567",
+            "e": "2303"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 22,
+          "points": 6,
+          "question": "V okruhu zbytkových tříd ⟨Z₁₃₈, +, ×⟩ určete multiplikativní inverzi k prvku 97 (pokud neexistuje, uveďte 0).",
+          "type": "open",
+          "options": {},
+          "correct_answers": [
+            "37"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "title": "Vzorový přijímací test magisterského studia FIT ČVUT",
+      "source_test_name": "VzorTest-1",
+      "note": "Shodný test jako roky 2018 a 2020 (VzorTest-1). Správné odpovědi přímo ve výsledkové verzi dokumentu.",
+      "questions": [
+        {
+          "id": 1,
+          "points": 4,
+          "question": "Jazyk L = {aⁿbⁿ : 0 ≤ n ≤ 8}",
+          "type": "multiple",
+          "options": {
+            "a": "lze přijímat konečným automatem.",
+            "b": "lze generovat gramatikou neobsahující rekurzi.",
+            "c": "obsahuje řetězec aabbb.",
+            "d": "obsahuje řetězec aabb."
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 2,
+          "points": 6,
+          "question": "Mějme dva nedeterministické konečné automaty A1 a A2. O jejich ekvivalenci platí, že:",
+          "type": "multiple",
+          "options": {
+            "a": "o ekvivalenci lze vždy algoritmicky rozhodnout.",
+            "b": "pokud mají tyto automaty různý počet koncových stavů, nemohou být ekvivalentní.",
+            "c": "pokud mají tyto automaty různý počet stavů, nemohou být ekvivalentní.",
+            "d": "pokud je počáteční stav automatu A1 koncový a žádný počáteční stav automatu A2 není koncový, pak A1 a A2 nemohou být ekvivalentní."
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 3,
+          "points": 4,
+          "question": "RSA je šifra",
+          "type": "single",
+          "options": {
+            "a": "synchronní",
+            "b": "symetrická",
+            "c": "asynchronní",
+            "d": "asymetrická",
+            "e": "proudová"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 4,
+          "points": 4,
+          "question": "Systémový katalog relační databáze obsahuje",
+          "type": "multiple",
+          "options": {
+            "a": "metadata - informace o struktuře databáze",
+            "b": "informace, potřebné pro zajištění transakčního zpracování (commit, rollback)",
+            "c": "informace, potřebné pro zotavení systému po pádu",
+            "d": "informace o uživatelích databáze a jejich právech"
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 5,
+          "points": 6,
+          "question": "Klíč relace v relační databázi má tyto vlastnosti:",
+          "type": "multiple",
+          "options": {
+            "a": "hodnota klíče v n-tici jednoznačně určuje celou n-tici",
+            "b": "jeho tranzitivní uzávěr obsahuje všechny atributy relace",
+            "c": "vyskytuje se vždy pouze na levé straně funkční závislosti",
+            "d": "tranzitivní uzávěr některé jeho podmnožiny obsahuje všechny atributy relace"
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 6,
+          "points": 4,
+          "question": "Jakou dimenzi má lineární vektorový prostor matic ℝᵐˣⁿ?",
+          "type": "single",
+          "options": {
+            "a": "m + n",
+            "b": "m · n",
+            "c": "m² + n²",
+            "d": "Žádná z ostatních odpovědí není správná."
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 7,
+          "points": 6,
+          "question": "Hodnost matice je rovna:",
+          "type": "multiple",
+          "options": {
+            "a": "počtu nenulových řádků matice",
+            "b": "počtu nenulových čísel na diagonále matice",
+            "c": "počtu lineárně závislých řádků matice",
+            "d": "hodnosti transponované matice"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 8,
+          "points": 4,
+          "question": "Zjednodušte formuli výrokové logiky B ∧ (A ∨ ¬(¬B ∨ A)).",
+          "type": "single",
+          "options": {
+            "a": "B",
+            "b": "B ∧ A",
+            "c": "B ∧ ¬A",
+            "d": "B ∨ ¬A"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 9,
+          "points": 6,
+          "question": "Které z následujících formulí jsou logickými důsledky formule ¬(∀x)p(x)? (p(x) je unární predikát).",
+          "type": "multiple",
+          "options": {
+            "a": "(∃x)¬p(x)",
+            "b": "(∃y)¬p(y)",
+            "c": "(∀x)¬p(x)",
+            "d": "(∀y)¬p(y)"
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 10,
+          "points": 4,
+          "question": "Které z následujících synchronizačních technik jsou založeny na blokování a lze jimi synchronizovat procesy nebo vlákna?",
+          "type": "multiple",
+          "options": {
+            "a": "Semafory",
+            "b": "Algoritmus striktního střídání",
+            "c": "Pštrosí algoritmus",
+            "d": "Bariéry"
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 11,
+          "points": 6,
+          "question": "Pevný disk má rychlost otáček 5000 RPM. Jaké bude průměrné rotační zpoždění při čtení jednoho sektoru?",
+          "type": "single",
+          "options": {
+            "a": "0ms",
+            "b": "3ms",
+            "c": "6ms",
+            "d": "12ms"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 12,
+          "points": 4,
+          "question": "void ff(int x) { if (x > 0) ff(x-1); abc(x); if (x > 0) ff(x-1); }\nDaná funkce ff je volána s parametrem 2: ff(2). Funkce abc(x) je tedy celkem volána",
+          "type": "multiple",
+          "options": {
+            "a": "7 krát",
+            "b": "1 krát",
+            "c": "5 krát",
+            "d": "8 krát"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 13,
+          "points": 6,
+          "question": "Mějme datový typ množina implementovaný charakteristickým vektorem. Jaké jsou složitosti operací test existence prvku, vložení prvku, odebrání prvku pro množinu n prvků?",
+          "type": "single",
+          "options": {
+            "a": "Θ(1), Θ(n), Θ(n)",
+            "b": "Θ(n), Θ(n), Θ(n)",
+            "c": "Θ(1), Θ(1), Θ(1)",
+            "d": "Θ(log n), Θ(n), Θ(n)"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 14,
+          "points": 6,
+          "question": "Síťový protokol UDP se od protokolu TCP liší mimo jiné tím, že:",
+          "type": "multiple",
+          "options": {
+            "a": "nepotvrzuje doručení paketu",
+            "b": "neřeší problém duplicitních paketů",
+            "c": "uzavírá najednou obě strany kanálu",
+            "d": "nemá \"hand shake\" při otevírání spojení"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 15,
+          "points": 4,
+          "question": "Síť, ve které lze přidělit IPv4 adresy v rozsahu 19.11.32.1 až 19.11.32.254, má adresu a masku:",
+          "type": "single",
+          "options": {
+            "a": "19.11.32.0/20",
+            "b": "19.11.32.0/22",
+            "c": "19.11.32.0/24",
+            "d": "19.11.0.0/32"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 16,
+          "points": 4,
+          "question": "Pro dva disjunktní jevy platí, že",
+          "type": "single",
+          "options": {
+            "a": "jsou vždy nezávislé",
+            "b": "nemohou nikdy být nezávislé",
+            "c": "mohou být nezávislé pouze tehdy, když alespoň jeden z jevů je nemožný",
+            "d": "žádná z ostatních odpovědí není správná"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 17,
+          "points": 6,
+          "question": "Vyberte pravdivá tvrzení:",
+          "type": "multiple",
+          "options": {
+            "a": "Výběrový průměr je vychýleným odhadem střední hodnoty.",
+            "b": "Střední hodnota nestranného odhadu je rovna skutečné hodnotě odhadovaného parametru.",
+            "c": "Výběrový rozptyl s² = (1/(n-1)) · Σ(Xᵢ - X̄ₙ)² je nestranným odhadem rozptylu.",
+            "d": "Výběrová kovariance je bodovým odhadem rozptylu."
+          },
+          "correct_answers": [
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 18,
+          "points": 4,
+          "question": "Vyberte všechna správná tvrzení:",
+          "type": "multiple",
+          "options": {
+            "a": "aritmetický posuv vlevo o jeden bit odpovídá násobení dvěma",
+            "b": "aritmetický posuv vlevo o dva bity odpovídá násobení čtyřmi",
+            "c": "aritmetický posuv vpravo o jeden bit odpovídá násobení dvěma",
+            "d": "aritmetický posuv vpravo o jeden bit odpovídá dělení dvěma"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 19,
+          "points": 6,
+          "question": "Sečtěte dvě osmibitová čísla FF a 01 vyjádřené v šestnáctkové soustavě pomocí 8 bitové sčítačky. Jak budeme interpretovat výsledek součtu za předpokladu, že operandy i výsledek jsou čísla v doplňkovém kódu?",
+          "type": "single",
+          "options": {
+            "a": "256 desítkově",
+            "b": "Součet nelze správně zobrazit, nevejde se do 8 bitů (dochází k přetečení)",
+            "c": "0 desítkově",
+            "d": "100 (šestnáctkově)"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 20,
+          "points": 4,
+          "question": "Nechť A, B, C jsou nějaké množiny. Pokud je to možné, dosaďte za otazník z nabídky operací takovou aby platila rovnost A \\ (B \\ C) = (A \\ B) ? C (symbol \\ vyjadřuje operaci rozdílu množin).",
+          "type": "single",
+          "options": {
+            "a": "\\",
+            "b": "∪",
+            "c": "∩",
+            "d": "rovnost neplatí pro žádnou z uvedených operací"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 21,
+          "points": 6,
+          "question": "Určete počet všech přirozených čísel z intervalu <1, 2304>, která jsou nesoudělná s číslem 2304.",
+          "type": "single",
+          "options": {
+            "a": "255",
+            "b": "768",
+            "c": "1152",
+            "d": "1567",
+            "e": "2303"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 22,
+          "points": 6,
+          "question": "V okruhu zbytkových tříd ⟨Z₁₃₈, +, ×⟩ určete multiplikativní inverzi k prvku 97 (pokud neexistuje, uveďte 0).",
+          "type": "open",
+          "options": {},
+          "correct_answers": [
+            "37"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "title": "Vzorový přijímací test magisterského studia FIT ČVUT",
+      "source_test_name": "VzorTest2023",
+      "note": "Správné odpovědi přímo ve výsledkové verzi dokumentu.",
+      "questions": [
+        {
+          "id": 1,
+          "points": 6,
+          "question": "Ve sportovní základní škole je 40% děvčat. Z dívek 20% a z chlapců 10% reprezentuje školu ve školním týmu košíkové. Vybereme náhodně jednoho žáka ze školního týmu košíkové. Jaká je pravděpodobnost, že vybraný žák je chlapec?",
+          "type": "single",
+          "options": {
+            "a": "6/15",
+            "b": "6/14",
+            "c": "8/15",
+            "d": "8/14"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 2,
+          "points": 4,
+          "question": "Ve čtyřbitové řádové mřížce je číslo 1111 (dvojkově). Jeho interpretace je (desítkově):",
+          "type": "single",
+          "options": {
+            "a": "-1 v případě, že jde o čísla v doplňkovém kódu",
+            "b": "+15 v případě, že jde o čísla v přímém kódu",
+            "c": "-7 v případě, že jde o čísla v doplňkovém kódu",
+            "d": "-15 v případě, že jde o čísla v doplňkovém kódu"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 3,
+          "points": 5,
+          "question": "Jazyk L = {aⁿbⁿ : 0 ≤ n ≤ 8}",
+          "type": "multiple",
+          "options": {
+            "a": "obsahuje řetězec aabbb.",
+            "b": "lze přijímat konečným automatem.",
+            "c": "lze generovat gramatikou neobsahující rekurzi.",
+            "d": "obsahuje řetězec aabb."
+          },
+          "correct_answers": [
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 4,
+          "points": 4,
+          "question": "Mějme vektorový prostor ℝ³ se standardním skalárním součinem. Určete úhel vektorů u = (1, 0, 2) a v = (2, π, -1):",
+          "type": "single",
+          "options": {
+            "a": "π/2",
+            "b": "-π",
+            "c": "π",
+            "d": "0"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 5,
+          "points": 4,
+          "question": "Síť, ve které lze přidělit IPv4 adresy v rozsahu 19.11.32.1 až 19.11.32.254, má adresu a masku:",
+          "type": "single",
+          "options": {
+            "a": "19.11.32.0/24",
+            "b": "19.11.32.0/22",
+            "c": "19.11.32.0/20",
+            "d": "19.11.0.0/32"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 6,
+          "points": 4,
+          "question": "Systémový katalog relační databáze obsahuje",
+          "type": "multiple",
+          "options": {
+            "a": "informace, potřebné pro zajištění transakčního zpracování (commit, rollback)",
+            "b": "informace, potřebné pro zotavení systému po pádu",
+            "c": "informace o uživatelích databáze a jejich právech",
+            "d": "metadata - informace o struktuře databáze"
+          },
+          "correct_answers": [
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 7,
+          "points": 6,
+          "question": "Uvažujme binární relaci R = {(a,b),(b,c),(c,a)} na množině X = {a,b,c}. Určete, která z následujících relací je ekvivalencí na X (symbolem Δ_X označujeme relaci identita na množině X, symbol R⁺ značí tranzitivní uzávěr relace R).",
+          "type": "single",
+          "options": {
+            "a": "R ∪ R⁻¹",
+            "b": "žádná z uvedených",
+            "c": "R⁺",
+            "d": "R ∪ Δ_X"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 8,
+          "points": 6,
+          "question": "Transakční žurnál (logfile, WAL) v relační databázi obsahuje",
+          "type": "multiple",
+          "options": {
+            "a": "změnové vektory",
+            "b": "synchronizační známku (SCN)",
+            "c": "provedené DCL příkazy",
+            "d": "provedené DML příkazy",
+            "e": "provedené DDL příkazy"
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 9,
+          "points": 6,
+          "question": "Které z následujících formulí jsou logickými důsledky formule ¬(∀x)p(x)? (p(x) je unární predikát).",
+          "type": "multiple",
+          "options": {
+            "a": "(∀y)¬p(y)",
+            "b": "(∀x)¬p(x)",
+            "c": "(∃y)¬p(y)",
+            "d": "(∃x)¬p(x)"
+          },
+          "correct_answers": [
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 10,
+          "points": 6,
+          "question": "Na diskové oblasti Z je systém souborů FAT. Adresáře zabírají pouze jeden datový blok. V paměti je pouze tabulka FAT a kořenový adresář. Kolik diskových přístupů čtení musíme minimálně udělat, abychom načetli první datový blok s obsahem souboru Z:\\A\\B\\file.txt?",
+          "type": "single",
+          "options": {
+            "a": "2",
+            "b": "0",
+            "c": "3",
+            "d": "1"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 11,
+          "points": 6,
+          "question": "Která následující tvrzení jsou pravdivá:",
+          "type": "multiple",
+          "options": {
+            "a": "Protokol TCP může posílat do sítě další fragmenty dat, i když ještě nebyl příjem naposledy odeslaných dat potvrzen.",
+            "b": "Ukončení spojení v protokolu UDP není explicitně oznamováno.",
+            "c": "Protokoly TCP a UDP pracují na 3. (síťové) vrstvě modelu ISO/OSI.",
+            "d": "Navázání spojení v protokolu UDP je realizováno přenosem celkem 3 paketů."
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 12,
+          "points": 4,
+          "question": "Multiplikativní inverze čísla 3 modulo 6 je",
+          "type": "single",
+          "options": {
+            "a": "-2",
+            "b": "neexistuje",
+            "c": "3",
+            "d": "2"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 13,
+          "points": 5,
+          "question": "Uvažujme binární relaci R = {(a,b),(b,a)} na množině X = {a,b,c}. Určete, pro které z následujících relací S je relace R ∪ S ekvivalencí na X (symbolem Δ_X označujeme relaci identita na množině X).",
+          "type": "multiple",
+          "options": {
+            "a": "S = {(a,a),(b,b)}",
+            "b": "žádná z uvedených",
+            "c": "S = {(c,b),(b,c)}",
+            "d": "S = Δ_X"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 14,
+          "points": 4,
+          "question": "void ff(int x) { if (x > 0) ff(x-1); abc(x); if (x > 0) ff(x-1); }\nDaná funkce ff je volána s parametrem 2: ff(2). Funkce abc(x) je tedy celkem volána",
+          "type": "multiple",
+          "options": {
+            "a": "1 krát",
+            "b": "5 krát",
+            "c": "7 krát",
+            "d": "8 krát"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 15,
+          "points": 6,
+          "question": "Mějme dva nedeterministické konečné automaty A1 a A2. O jejich ekvivalenci platí, že:",
+          "type": "multiple",
+          "options": {
+            "a": "pokud mají tyto automaty různý počet stavů, nemohou být ekvivalentní.",
+            "b": "pokud je počáteční stav automatu A1 koncový a žádný počáteční stav automatu A2 není koncový, pak A1 a A2 nemohou být ekvivalentní.",
+            "c": "o ekvivalenci lze vždy algoritmicky rozhodnout.",
+            "d": "pokud mají tyto automaty různý počet koncových stavů, nemohou být ekvivalentní."
+          },
+          "correct_answers": [
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 16,
+          "points": 4,
+          "question": "Která z následujících tvrzení platí pro systém souborů FAT?",
+          "type": "single",
+          "options": {
+            "a": "FAT tabulka obsahuje atributy datových bloků.",
+            "b": "Velikost FAT tabulky není závislá na velikosti diskové oblasti.",
+            "c": "Velikost FAT tabulky je úměrná počtu datových bloků.",
+            "d": "Obsah souboru je uložen ve FAT tabulce."
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 17,
+          "points": 4,
+          "question": "Nalezněte negaci formule predikátové logiky (∀x)(p(x) ⇒ q(x)).",
+          "type": "single",
+          "options": {
+            "a": "(∃x)(p(x) ∧ ¬q(x))",
+            "b": "(∃x)(p(x) ∧ q(x))",
+            "c": "(∀x)(¬q(x) ⇒ ¬q(x))",
+            "d": "(∀x)(¬p(x) ∨ q(x))"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 18,
+          "points": 6,
+          "question": "Hodnost matice je rovna:",
+          "type": "multiple",
+          "options": {
+            "a": "počtu nenulových řádků matice",
+            "b": "hodnosti transponované matice",
+            "c": "počtu lineárně závislých řádků matice",
+            "d": "počtu nenulových čísel na diagonále matice"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 19,
+          "points": 6,
+          "question": "V okruhu zbytkových tříd ⟨Z₁₃₈, +, ×⟩ určete multiplikativní inverzi k prvku 97 (pokud neexistuje, uveďte 0).",
+          "type": "open",
+          "options": {},
+          "correct_answers": [
+            "37"
+          ]
+        },
+        {
+          "id": 20,
+          "points": 4,
+          "question": "Které z následujících spojitých rozdělení nemá paměť?",
+          "type": "single",
+          "options": {
+            "a": "Normální rozdělení.",
+            "b": "Rovnoměrné rozdělení.",
+            "c": "Exponenciální rozdělení.",
+            "d": "Rozdělení Chi-kvadrát."
+          },
+          "correct_answers": [
+            "c"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "title": "Vzorový přijímací test magisterského studia FIT ČVUT",
+      "source_test_name": "VzorTest2024",
+      "note": "Správné odpovědi přímo ve výsledkové verzi dokumentu.",
+      "questions": [
+        {
+          "id": 1,
+          "points": 4,
+          "question": "Systémový katalog relační databáze obsahuje",
+          "type": "multiple",
+          "options": {
+            "a": "metadata - informace o struktuře databáze",
+            "b": "informace, potřebné pro zotavení systému po pádu",
+            "c": "informace o uživatelích databáze a jejich právech",
+            "d": "informace, potřebné pro zajištění transakčního zpracování (commit, rollback)"
+          },
+          "correct_answers": [
+            "a",
+            "c"
+          ]
+        },
+        {
+          "id": 2,
+          "points": 6,
+          "question": "Kryptografické hešovací funkce se používají",
+          "type": "multiple",
+          "options": {
+            "a": "pro zajištění integrity zprávy",
+            "b": "jako součást digitálního podpisu",
+            "c": "pro bezpečnou správu hesel",
+            "d": "pro autentizaci"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 3,
+          "points": 4,
+          "question": "Ve čtyřbitové řádové mřížce je číslo 1111 (dvojkově). Jeho interpretace je (desítkově):",
+          "type": "single",
+          "options": {
+            "a": "-1 v případě, že jde o čísla v doplňkovém kódu",
+            "b": "-15 v případě, že jde o čísla v doplňkovém kódu",
+            "c": "-7 v případě, že jde o čísla v doplňkovém kódu",
+            "d": "+15 v případě, že jde o čísla v přímém kódu"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 4,
+          "points": 6,
+          "question": "Síťový protokol UDP se od protokolu TCP liší mimo jiné tím, že:",
+          "type": "multiple",
+          "options": {
+            "a": "nemá \"hand shake\" při otevírání spojení",
+            "b": "uzavírá najednou obě strany kanálu",
+            "c": "neřeší problém duplicitních paketů",
+            "d": "nepotvrzuje doručení paketu"
+          },
+          "correct_answers": [
+            "a",
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 5,
+          "points": 6,
+          "question": "Klíč relace v relační databázi má tyto vlastnosti:",
+          "type": "multiple",
+          "options": {
+            "a": "tranzitivní uzávěr některé jeho podmnožiny obsahuje všechny atributy relace",
+            "b": "hodnota klíče v n-tici jednoznačně určuje celou n-tici",
+            "c": "vyskytuje se vždy pouze na levé straně funkční závislosti",
+            "d": "jeho tranzitivní uzávěr obsahuje všechny atributy relace"
+          },
+          "correct_answers": [
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 6,
+          "points": 4,
+          "question": "Které z následujících spojitých rozdělení nemá paměť?",
+          "type": "single",
+          "options": {
+            "a": "Exponenciální rozdělení.",
+            "b": "Normální rozdělení.",
+            "c": "Rovnoměrné rozdělení.",
+            "d": "Rozdělení Chi-kvadrát."
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 7,
+          "points": 4,
+          "question": "Nalezněte negaci formule predikátové logiky (∀x)(p(x) ⇒ q(x)).",
+          "type": "single",
+          "options": {
+            "a": "(∃x)(p(x) ∧ q(x))",
+            "b": "(∃x)(p(x) ∧ ¬q(x))",
+            "c": "(∀x)(¬q(x) ⇒ ¬q(x))",
+            "d": "(∀x)(¬p(x) ∨ q(x))"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 8,
+          "points": 5,
+          "question": "Jazyk L = {aⁿbⁿ : 0 ≤ n ≤ 8}",
+          "type": "multiple",
+          "options": {
+            "a": "obsahuje řetězec aabbb.",
+            "b": "lze přijímat konečným automatem.",
+            "c": "obsahuje řetězec aabb.",
+            "d": "lze generovat gramatikou neobsahující rekurzi."
+          },
+          "correct_answers": [
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 9,
+          "points": 4,
+          "question": "Síť, ve které lze přidělit IPv4 adresy v rozsahu 19.11.32.1 až 19.11.32.254, má adresu a masku:",
+          "type": "single",
+          "options": {
+            "a": "19.11.32.0/24",
+            "b": "19.11.32.0/22",
+            "c": "19.11.32.0/20",
+            "d": "19.11.0.0/32"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 10,
+          "points": 4,
+          "question": "Které z následujících synchronizačních technik jsou založeny na blokování a lze jimi synchronizovat procesy nebo vlákna?",
+          "type": "multiple",
+          "options": {
+            "a": "Algoritmus striktního střídání",
+            "b": "Semafory",
+            "c": "Pštrosí algoritmus",
+            "d": "Bariéry"
+          },
+          "correct_answers": [
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 11,
+          "points": 4,
+          "question": "Zpracování binárního stromu v pořadí preorder se rozumí následující:",
+          "type": "multiple",
+          "options": {
+            "a": "zpracuje se nejprve levý podstrom, pak pravý podstrom a pak kořen",
+            "b": "zpracují se prvky stromu v uspořádání zleva doprava",
+            "c": "zpracují se prvky stromu ve stejném pořadí, v jakém byly do stromu vloženy",
+            "d": "zpracuje se nejprve kořen, pak jeho levý podstrom a pak pravý podstrom"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 12,
+          "points": 6,
+          "question": "Mějme dva nedeterministické konečné automaty A1 a A2. O jejich ekvivalenci platí, že:",
+          "type": "multiple",
+          "options": {
+            "a": "o ekvivalenci lze vždy algoritmicky rozhodnout.",
+            "b": "pokud mají tyto automaty různý počet koncových stavů, nemohou být ekvivalentní.",
+            "c": "pokud je počáteční stav automatu A1 koncový a žádný počáteční stav automatu A2 není koncový, pak A1 a A2 nemohou být ekvivalentní.",
+            "d": "pokud mají tyto automaty různý počet stavů, nemohou být ekvivalentní."
+          },
+          "correct_answers": [
+            "a",
+            "c"
+          ]
+        },
+        {
+          "id": 13,
+          "points": 6,
+          "question": "Hodnost matice je rovna:",
+          "type": "multiple",
+          "options": {
+            "a": "počtu nenulových řádků matice",
+            "b": "počtu lineárně závislých řádků matice",
+            "c": "počtu nenulových čísel na diagonále matice",
+            "d": "hodnosti transponované matice"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 14,
+          "points": 5,
+          "question": "Uvažujme binární relaci R = {(a,b),(b,a)} na množině X = {a,b,c}. Určete, pro které z následujících relací S je relace R ∪ S ekvivalencí na X (symbolem Δ_X označujeme relaci identita na množině X).",
+          "type": "multiple",
+          "options": {
+            "a": "žádná z uvedených",
+            "b": "S = {(c,b),(b,c)}",
+            "c": "S = Δ_X",
+            "d": "S = {(a,a),(b,b)}"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 15,
+          "points": 6,
+          "question": "Rozhodněte, které z následujících dvojic formulí výrokové logiky jsou logicky ekvivalentní.",
+          "type": "multiple",
+          "options": {
+            "a": "A ⇒ B  ;  ¬(A ∧ ¬B)",
+            "b": "A ⇒ B  ;  ¬A ∨ B",
+            "c": "A ⇒ B  ;  ¬B ⇒ ¬A",
+            "d": "A ⇒ B  ;  A ∨ ¬B"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 16,
+          "points": 6,
+          "question": "Vyberte pravdivá tvrzení:",
+          "type": "multiple",
+          "options": {
+            "a": "Výběrový rozptyl je nestranným odhadem rozptylu.",
+            "b": "Výběrový průměr je vychýleným odhadem střední hodnoty.",
+            "c": "Výběrová kovariance je bodovým odhadem rozptylu.",
+            "d": "Střední hodnota nestranného odhadu je rovna skutečné hodnotě odhadovaného parametru."
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 17,
+          "points": 4,
+          "question": "Multiplikativní inverze čísla 3 modulo 6 je",
+          "type": "single",
+          "options": {
+            "a": "neexistuje",
+            "b": "3",
+            "c": "2",
+            "d": "-2"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 18,
+          "points": 6,
+          "question": "Určete počet všech přirozených čísel z intervalu <1, 2304>, která jsou nesoudělná s číslem 2304.",
+          "type": "single",
+          "options": {
+            "a": "1152",
+            "b": "768",
+            "c": "255",
+            "d": "2303",
+            "e": "1567"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 19,
+          "points": 4,
+          "question": "Mějme vektorový prostor ℝ³ se standardním skalárním součinem. Určete úhel vektorů u = (1, 0, 2) a v = (2, π, -1):",
+          "type": "single",
+          "options": {
+            "a": "0",
+            "b": "-π",
+            "c": "π/2",
+            "d": "π"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 20,
+          "points": 6,
+          "question": "Pevný disk má rychlost otáček 5000 RPM. Jaké bude průměrné rotační zpoždění při čtení jednoho sektoru?",
+          "type": "single",
+          "options": {
+            "a": "6ms",
+            "b": "0ms",
+            "c": "12ms",
+            "d": "3ms"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Vzorový přijímací test magisterského studia FIT ČVUT",
+      "source_test_name": "VzorTest2025",
+      "note": "Správné odpovědi z oficiálního výsledkového dokumentu.",
+      "questions": [
+        {
+          "id": 1,
+          "points": 4,
+          "question": "RSA je šifra",
+          "type": "single",
+          "options": {
+            "a": "proudová",
+            "b": "asynchronní",
+            "c": "synchronní",
+            "d": "asymetrická",
+            "e": "symetrická"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 2,
+          "points": 4,
+          "question": "Které z následujících synchronizačních technik jsou založeny na blokování a lze jimi synchronizovat procesy nebo vlákna?",
+          "type": "multiple",
+          "options": {
+            "a": "Bariéry",
+            "b": "Algoritmus striktního střídání",
+            "c": "Semafory",
+            "d": "Pštrosí algoritmus"
+          },
+          "correct_answers": [
+            "a",
+            "c"
+          ]
+        },
+        {
+          "id": 3,
+          "points": 6,
+          "question": "Je dán regulární výraz V = ab(b + c)*aba. Minimální deterministický konečný automat bez zbytečných stavů, který přijímá jazyk popsaný tímto výrazem, má:",
+          "type": "single",
+          "options": {
+            "a": "6 stavů",
+            "b": "5 stavů",
+            "c": "4 stavy",
+            "d": "3 stavy"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 4,
+          "points": 4,
+          "question": "Zpracování binárního stromu v pořadí preorder se rozumí následující:",
+          "type": "multiple",
+          "options": {
+            "a": "zpracuje se nejprve kořen, pak jeho levý podstrom a pak pravý podstrom",
+            "b": "zpracují se prvky stromu v uspořádání zleva doprava",
+            "c": "zpracuje se nejprve levý podstrom, pak pravý podstrom a pak kořen",
+            "d": "zpracují se prvky stromu ve stejném pořadí, v jakém byly do stromu vloženy"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 5,
+          "points": 5,
+          "question": "Uvažujme binární relaci R = {(a,b),(b,a)} na množině X = {a,b,c}. Určete, pro které z následujících relací S je relace R ∪ S ekvivalencí na X (symbolem Δ_X označujeme relaci identita na množině X).",
+          "type": "multiple",
+          "options": {
+            "a": "žádná z uvedených",
+            "b": "S = {(a,a),(b,b)}",
+            "c": "S = {(c,b),(b,c)}",
+            "d": "S = Δ_X"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 6,
+          "points": 4,
+          "question": "Síť, ve které lze přidělit IPv4 adresy v rozsahu 19.11.32.1 až 19.11.32.254, má adresu a masku:",
+          "type": "single",
+          "options": {
+            "a": "19.11.32.0/24",
+            "b": "19.11.32.0/20",
+            "c": "19.11.0.0/32",
+            "d": "19.11.32.0/22"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 7,
+          "points": 6,
+          "question": "Rozhodněte, které z následujících dvojic formulí výrokové logiky jsou logicky ekvivalentní.",
+          "type": "multiple",
+          "options": {
+            "a": "A ⇒ B  ;  ¬B ⇒ ¬A",
+            "b": "A ⇒ B  ;  ¬(A ∧ ¬B)",
+            "c": "A ⇒ B  ;  A ∨ ¬B",
+            "d": "A ⇒ B  ;  ¬A ∨ B"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 8,
+          "points": 6,
+          "question": "Která následující tvrzení jsou pravdivá:",
+          "type": "multiple",
+          "options": {
+            "a": "Ukončení spojení v protokolu UDP není explicitně oznamováno.",
+            "b": "Protokol TCP může posílat do sítě další fragmenty dat, i když ještě nebyl příjem naposledy odeslaných dat potvrzen.",
+            "c": "Navázání spojení v protokolu UDP je realizováno přenosem celkem 3 paketů.",
+            "d": "Protokoly TCP a UDP pracují na 3. (síťové) vrstvě modelu ISO/OSI."
+          },
+          "correct_answers": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "id": 9,
+          "points": 5,
+          "question": "Jazyk L = {aⁿbⁿ : n ≥ 0}",
+          "type": "single",
+          "options": {
+            "a": "lze přijímat zásobníkovým automatem.",
+            "b": "je regulární.",
+            "c": "lze přijímat konečným automatem.",
+            "d": "je totožný s jazykem popsaným regulárním výrazem a*b*."
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 10,
+          "points": 6,
+          "question": "V okruhu zbytkových tříd ⟨Z₁₃₈, +, ×⟩ určete multiplikativní inverzi k prvku 97 (pokud neexistuje, uveďte 0).",
+          "type": "open",
+          "options": {},
+          "correct_answers": [
+            "37"
+          ]
+        },
+        {
+          "id": 11,
+          "points": 6,
+          "question": "Nechť A a B jsou čtvercové matice se stejným počtem řádků. Která z následujících tvrzení jsou pravdivá?",
+          "type": "multiple",
+          "options": {
+            "a": "A je regulární právě když det A = det Aᵀ",
+            "b": "det(A · B) = det A · det B",
+            "c": "det A = det Aᵀ",
+            "d": "A je regulární právě když det A = 0"
+          },
+          "correct_answers": [
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 12,
+          "points": 4,
+          "question": "Mějme vektorový prostor ℝ³ se standardním skalárním součinem. Určete úhel vektorů u = (1, 0, 2) a v = (2, π, -1):",
+          "type": "single",
+          "options": {
+            "a": "0",
+            "b": "π/2",
+            "c": "π",
+            "d": "-π"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 13,
+          "points": 4,
+          "question": "Vyberte všechna správná tvrzení:",
+          "type": "multiple",
+          "options": {
+            "a": "aritmetický posuv vlevo o dva bity odpovídá násobení čtyřmi",
+            "b": "aritmetický posuv vpravo o jeden bit odpovídá dělení dvěma.",
+            "c": "aritmetický posuv vpravo o jeden bit odpovídá násobení dvěma",
+            "d": "aritmetický posuv vlevo o jeden bit odpovídá násobení dvěma"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 14,
+          "points": 4,
+          "question": "Data Control Language (SQL DCL)",
+          "type": "multiple",
+          "options": {
+            "a": "obsahuje příkazy GRANT, REVOKE",
+            "b": "obsahuje příkazy COMMIT, ROLLBACK",
+            "c": "obsahuje příkazy COMMIT, GRANT",
+            "d": "obsahuje příkazy ROLLBACK, GRANT"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 15,
+          "points": 6,
+          "question": "Vyberte pravdivá tvrzení:",
+          "type": "multiple",
+          "options": {
+            "a": "Výběrová kovariance je bodovým odhadem rozptylu.",
+            "b": "Výběrový průměr je vychýleným odhadem střední hodnoty.",
+            "c": "Střední hodnota nestranného odhadu je rovna skutečné hodnotě odhadovaného parametru.",
+            "d": "Výběrový rozptyl s² = (1/(n-1)) · Σ(Xᵢ - X̄ₙ)² je nestranným odhadem rozptylu."
+          },
+          "correct_answers": [
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 16,
+          "points": 6,
+          "question": "Transakční žurnál (logfile, WAL) v relační databázi obsahuje",
+          "type": "multiple",
+          "options": {
+            "a": "změnové vektory",
+            "b": "provedené DCL příkazy",
+            "c": "synchronizační známku (SCN)",
+            "d": "provedené DDL příkazy",
+            "e": "provedené DML příkazy"
+          },
+          "correct_answers": [
+            "a",
+            "c"
+          ]
+        },
+        {
+          "id": 17,
+          "points": 6,
+          "question": "Určete počet všech přirozených čísel z intervalu <1, 2304>, která jsou nesoudělná s číslem 2304.",
+          "type": "single",
+          "options": {
+            "a": "2303",
+            "b": "255",
+            "c": "1567",
+            "d": "1152",
+            "e": "768"
+          },
+          "correct_answers": [
+            "e"
+          ]
+        },
+        {
+          "id": 18,
+          "points": 6,
+          "question": "Na diskové oblasti Z je systém souborů FAT. Adresáře zabírají pouze jeden datový blok. V paměti je pouze tabulka FAT a kořenový adresář. Kolik diskových přístupů čtení musíme minimálně udělat, abychom načetli první datový blok s obsahem souboru Z:\\A\\B\\file.txt?",
+          "type": "single",
+          "options": {
+            "a": "1",
+            "b": "3",
+            "c": "0",
+            "d": "2"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 19,
+          "points": 4,
+          "question": "Nalezněte negaci formule predikátové logiky (∀x)(p(x) ⇒ q(x)).",
+          "type": "single",
+          "options": {
+            "a": "(∀x)(¬q(x) ⇒ ¬q(x))",
+            "b": "(∃x)(p(x) ∧ ¬q(x))",
+            "c": "(∀x)(¬p(x) ∨ q(x))",
+            "d": "(∃x)(p(x) ∧ q(x))"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 20,
+          "points": 4,
+          "question": "Které z následujících spojitých rozdělení nemá paměť?",
+          "type": "single",
+          "options": {
+            "a": "Rozdělení Chi-kvadrát.",
+            "b": "Rovnoměrné rozdělení.",
+            "c": "Exponenciální rozdělení.",
+            "d": "Normální rozdělení."
+          },
+          "correct_answers": [
+            "c"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "title": "Vzorový přijímací test magisterského studia FIT ČVUT",
+      "source_test_name": "VzorTest2026",
+      "note": "Správné odpovědi z oficiálního výsledkového dokumentu.",
+      "questions": [
+        {
+          "id": 1,
+          "points": 6,
+          "question": "V okruhu zbytkových tříd ⟨Z₁₃₈, +, ×⟩ určete multiplikativní inverzi k prvku 97 (pokud neexistuje, uveďte 0).",
+          "type": "open",
+          "options": {},
+          "correct_answers": [
+            "37"
+          ]
+        },
+        {
+          "id": 2,
+          "points": 4,
+          "question": "Systémový katalog relační databáze obsahuje",
+          "type": "multiple",
+          "options": {
+            "a": "informace, potřebné pro zotavení systému po pádu",
+            "b": "metadata - informace o struktuře databáze",
+            "c": "informace, potřebné pro zajištění transakčního zpracování (commit, rollback)",
+            "d": "informace o uživatelích databáze a jejich právech"
+          },
+          "correct_answers": [
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 3,
+          "points": 4,
+          "question": "Které z následujících spojitých rozdělení nemá paměť?",
+          "type": "single",
+          "options": {
+            "a": "Rozdělení Chi-kvadrát.",
+            "b": "Rovnoměrné rozdělení.",
+            "c": "Exponenciální rozdělení.",
+            "d": "Normální rozdělení."
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 4,
+          "points": 6,
+          "question": "Uvažujme binární relaci R = {(a,b),(b,c),(c,a)} na množině X = {a,b,c}. Určete, která z následujících relací je ekvivalencí na X (symbolem Δ_X označujeme relaci identita na množině X, symbol R⁺ značí tranzitivní uzávěr relace R).",
+          "type": "single",
+          "options": {
+            "a": "R⁺",
+            "b": "R ∪ Δ_X",
+            "c": "R ∪ R⁻¹",
+            "d": "žádná z uvedených"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 5,
+          "points": 6,
+          "question": "Síťový protokol UDP se od protokolu TCP liší mimo jiné tím, že:",
+          "type": "multiple",
+          "options": {
+            "a": "uzavírá najednou obě strany kanálu",
+            "b": "neřeší problém duplicitních paketů",
+            "c": "nemá \"hand shake\" při otevírání spojení",
+            "d": "nepotvrzuje doručení paketu"
+          },
+          "correct_answers": [
+            "b",
+            "c",
+            "d"
+          ]
+        },
+        {
+          "id": 6,
+          "points": 6,
+          "question": "Nechť A a B jsou čtvercové matice se stejným počtem řádků. Která z následujících tvrzení jsou pravdivá?",
+          "type": "multiple",
+          "options": {
+            "a": "det(A · B) = det A · det B",
+            "b": "A je regulární právě když det A = det Aᵀ",
+            "c": "det A = det Aᵀ",
+            "d": "A je regulární právě když det A = 0"
+          },
+          "correct_answers": [
+            "a",
+            "c"
+          ]
+        },
+        {
+          "id": 7,
+          "points": 6,
+          "question": "Vyberte pravdivá tvrzení:",
+          "type": "multiple",
+          "options": {
+            "a": "Střední hodnota nestranného odhadu je rovna skutečné hodnotě odhadovaného parametru.",
+            "b": "Výběrový průměr je vychýleným odhadem střední hodnoty.",
+            "c": "Výběrová kovariance je bodovým odhadem rozptylu.",
+            "d": "Výběrový rozptyl s² = (1/(n-1)) · Σ(Xᵢ - X̄ₙ)² je nestranným odhadem rozptylu."
+          },
+          "correct_answers": [
+            "a",
+            "d"
+          ]
+        },
+        {
+          "id": 8,
+          "points": 6,
+          "question": "Rozhodněte, které z následujících dvojic formulí výrokové logiky jsou logicky ekvivalentní.",
+          "type": "multiple",
+          "options": {
+            "a": "A ⇒ B  ;  ¬A ∨ B",
+            "b": "A ⇒ B  ;  ¬B ⇒ ¬A",
+            "c": "A ⇒ B  ;  ¬(A ∧ ¬B)",
+            "d": "A ⇒ B  ;  A ∨ ¬B"
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 9,
+          "points": 4,
+          "question": "Která z následujících tvrzení platí pro systém souborů FAT?",
+          "type": "single",
+          "options": {
+            "a": "Velikost FAT tabulky je úměrná počtu datových bloků.",
+            "b": "Obsah souboru je uložen ve FAT tabulce.",
+            "c": "Velikost FAT tabulky není závislá na velikosti diskové oblasti.",
+            "d": "FAT tabulka obsahuje atributy datových bloků."
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 10,
+          "points": 6,
+          "question": "Klíč relace v relační databázi má tyto vlastnosti:",
+          "type": "multiple",
+          "options": {
+            "a": "tranzitivní uzávěr některé jeho podmnožiny obsahuje všechny atributy relace",
+            "b": "hodnota klíče v n-tici jednoznačně určuje celou n-tici",
+            "c": "jeho tranzitivní uzávěr obsahuje všechny atributy relace",
+            "d": "vyskytuje se vždy pouze na levé straně funkční závislosti"
+          },
+          "correct_answers": [
+            "b",
+            "c"
+          ]
+        },
+        {
+          "id": 11,
+          "points": 4,
+          "question": "Mějme vektorový prostor ℝ³ se standardním skalárním součinem. Určete úhel vektorů u = (1, 0, 2) a v = (2, π, -1):",
+          "type": "single",
+          "options": {
+            "a": "π",
+            "b": "-π",
+            "c": "0",
+            "d": "π/2"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 12,
+          "points": 6,
+          "question": "Je dán regulární výraz V = ab(b + c)*aba. Minimální deterministický konečný automat bez zbytečných stavů, který přijímá jazyk popsaný tímto výrazem, má:",
+          "type": "single",
+          "options": {
+            "a": "4 stavy",
+            "b": "6 stavů",
+            "c": "3 stavy",
+            "d": "5 stavů"
+          },
+          "correct_answers": [
+            "b"
+          ]
+        },
+        {
+          "id": 13,
+          "points": 5,
+          "question": "Jazyk L = {aⁿbⁿ : 0 ≤ n ≤ 8}",
+          "type": "multiple",
+          "options": {
+            "a": "lze generovat gramatikou neobsahující rekurzi.",
+            "b": "lze přijímat konečným automatem.",
+            "c": "obsahuje řetězec aabbb.",
+            "d": "obsahuje řetězec aabb."
+          },
+          "correct_answers": [
+            "a",
+            "b",
+            "d"
+          ]
+        },
+        {
+          "id": 14,
+          "points": 6,
+          "question": "Na diskové oblasti Z je systém souborů FAT. Adresáře zabírají pouze jeden datový blok. V paměti je pouze tabulka FAT a kořenový adresář. Kolik diskových přístupů čtení musíme minimálně udělat, abychom načetli první datový blok s obsahem souboru Z:\\A\\B\\file.txt?",
+          "type": "single",
+          "options": {
+            "a": "0",
+            "b": "2",
+            "c": "3",
+            "d": "1"
+          },
+          "correct_answers": [
+            "c"
+          ]
+        },
+        {
+          "id": 15,
+          "points": 4,
+          "question": "RSA je šifra",
+          "type": "single",
+          "options": {
+            "a": "symetrická",
+            "b": "synchronní",
+            "c": "asynchronní",
+            "d": "proudová",
+            "e": "asymetrická"
+          },
+          "correct_answers": [
+            "e"
+          ]
+        },
+        {
+          "id": 16,
+          "points": 4,
+          "question": "Nalezněte negaci formule predikátové logiky (∀x)(p(x) ⇒ q(x)).",
+          "type": "single",
+          "options": {
+            "a": "(∃x)(p(x) ∧ ¬q(x))",
+            "b": "(∃x)(p(x) ∧ q(x))",
+            "c": "(∀x)(¬p(x) ∨ q(x))",
+            "d": "(∀x)(¬q(x) ⇒ ¬q(x))"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 17,
+          "points": 4,
+          "question": "Ve čtyřbitové řádové mřížce je číslo 1111 (dvojkově). Jeho interpretace je (desítkově):",
+          "type": "single",
+          "options": {
+            "a": "+15 v případě, že jde o čísla v přímém kódu",
+            "b": "-7 v případě, že jde o čísla v doplňkovém kódu",
+            "c": "-15 v případě, že jde o čísla v doplňkovém kódu",
+            "d": "-1 v případě, že jde o čísla v doplňkovém kódu"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        },
+        {
+          "id": 18,
+          "points": 4,
+          "question": "Síť, ve které lze přidělit IPv4 adresy v rozsahu 19.11.32.1 až 19.11.32.254, má adresu a masku:",
+          "type": "single",
+          "options": {
+            "a": "19.11.32.0/24",
+            "b": "19.11.0.0/32",
+            "c": "19.11.32.0/22",
+            "d": "19.11.32.0/20"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 19,
+          "points": 4,
+          "question": "Zpracování binárního stromu v pořadí preorder se rozumí následující:",
+          "type": "multiple",
+          "options": {
+            "a": "zpracuje se nejprve kořen, pak jeho levý podstrom a pak pravý podstrom",
+            "b": "zpracuje se nejprve levý podstrom, pak pravý podstrom a pak kořen",
+            "c": "zpracují se prvky stromu v uspořádání zleva doprava",
+            "d": "zpracují se prvky stromu ve stejném pořadí, v jakém byly do stromu vloženy"
+          },
+          "correct_answers": [
+            "a"
+          ]
+        },
+        {
+          "id": 20,
+          "points": 5,
+          "question": "Nechť A, B, C jsou nějaké množiny. Pokud je to možné, dosaďte za otazník z nabídky operací takovou aby platila rovnost A \\ (B \\ C) = (A \\ B) ? C (symbol \\ vyjadřuje operaci rozdílu množin).",
+          "type": "single",
+          "options": {
+            "a": "∩",
+            "b": "rovnost neplatí pro žádnou z uvedených operací",
+            "c": "\\",
+            "d": "∪"
+          },
+          "correct_answers": [
+            "d"
+          ]
+        }
+      ]
+    }
+  ]
+}

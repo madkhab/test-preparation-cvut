@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/answerfeedback.tsx","./src/components/examrunner.tsx","./src/components/examselector.tsx","./src/components/examsummary.tsx","./src/components/questionview.tsx","./src/hooks/useexamdata.ts","./src/types/exam.ts","./src/utils/answerchecker.ts","./src/utils/randomexam.ts"],"version":"5.9.3"}
