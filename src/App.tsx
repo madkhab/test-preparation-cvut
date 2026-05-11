@@ -12,10 +12,12 @@ export default function App() {
 
   return (
     <div className="app">
-      <header className="app-header">
-        <h1>{data.title}</h1>
-        <p>{data.description}</p>
-      </header>
+      {!activeExam && (
+        <header className="app-header">
+          <h1>{data.title}</h1>
+          <p>{data.description}</p>
+        </header>
+      )}
 
       <section className="app-body">
         {activeExam ? (

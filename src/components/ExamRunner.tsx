@@ -5,6 +5,7 @@ import {
   checkAnswer,
   isAnswerFilled,
 } from "../utils/answerChecker";
+import { shuffleExam } from "../utils/randomExam";
 import { QuestionView } from "./QuestionView";
 import { AnswerFeedback } from "./AnswerFeedback";
 import { ExamSummary, type QuestionResult } from "./ExamSummary";
@@ -29,14 +30,17 @@ function buildInitialState(exam: Exam): Record<number, QuestionResult> {
 }
 
 export function ExamRunner({ exam, onExit }: Props) {
+  const [shuffled, setShuffled] = useState<Exam>(() => shuffleExam(exam));
   const [states, setStates] = useState<Record<number, QuestionResult>>(() =>
-    buildInitialState(exam),
+    buildInitialState(shuffled),
   );
   const [index, setIndex] = useState(0);
   const [phase, setPhase] = useState<Phase>("running");
 
   const restart = () => {
-    setStates(buildInitialState(exam));
+    const reshuffled = shuffleExam(exam);
+    setShuffled(reshuffled);
+    setStates(buildInitialState(reshuffled));
     setIndex(0);
     setPhase("running");
   };
@@ -44,7 +48,7 @@ export function ExamRunner({ exam, onExit }: Props) {
   if (phase === "summary") {
     return (
       <ExamSummary
-        exam={exam}
+        exam={shuffled}
         results={states}
         onRestart={restart}
         onExit={onExit}
@@ -52,9 +56,9 @@ export function ExamRunner({ exam, onExit }: Props) {
     );
   }
 
-  const question = exam.questions[index];
+  const question = shuffled.questions[index];
   const state = states[question.id];
-  const isLast = index === exam.questions.length - 1;
+  const isLast = index === shuffled.questions.length - 1;
 
   const updateAnswer = (answer: UserAnswer) => {
     setStates((prev) => ({
@@ -94,15 +98,15 @@ export function ExamRunner({ exam, onExit }: Props) {
         </button>
         <div className="exam-title-block">
           <h2>
-            {exam.year > 0
-              ? `${exam.year} — ${exam.source_test_name}`
-              : exam.source_test_name}
+            {shuffled.year > 0
+              ? `${shuffled.year} — ${shuffled.source_test_name}`
+              : shuffled.source_test_name}
           </h2>
-          <p className="exam-subtitle">{exam.title}</p>
+          <p className="exam-subtitle">{shuffled.title}</p>
         </div>
         <div className="exam-progress">
           <span>
-            Question {index + 1} / {exam.questions.length}
+            Question {index + 1} / {shuffled.questions.length}
           </span>
           <span>
             Score: {score} / {answeredCount}
@@ -111,21 +115,6 @@ export function ExamRunner({ exam, onExit }: Props) {
       </header>
 
       <main className="exam-runner-body">
-        <QuestionView
-          question={question}
-          answer={state.answer}
-          locked={state.submitted}
-          onChange={updateAnswer}
-        />
-
-        {state.submitted && (
-          <AnswerFeedback
-            question={question}
-            answer={state.answer}
-            isCorrect={state.isCorrect}
-          />
-        )}
-
         <div className="actions">
           <button
             type="button"
@@ -171,6 +160,21 @@ export function ExamRunner({ exam, onExit }: Props) {
             </button>
           )}
         </div>
+
+        <QuestionView
+          question={question}
+          answer={state.answer}
+          locked={state.submitted}
+          onChange={updateAnswer}
+        />
+
+        {state.submitted && (
+          <AnswerFeedback
+            question={question}
+            answer={state.answer}
+            isCorrect={state.isCorrect}
+          />
+        )}
       </main>
     </div>
   );
