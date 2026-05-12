@@ -1,4 +1,4 @@
-import type { Exam, UserAnswer } from "../types/exam";
+import type { Exam, Question, UserAnswer } from "../types/exam";
 
 export interface QuestionResult {
   answer: UserAnswer;
@@ -22,6 +22,25 @@ function formatUserAnswer(answer: UserAnswer): string {
     case "open":
       return answer.value.trim().length > 0 ? answer.value : "—";
   }
+}
+
+function isUserSelected(answer: UserAnswer, key: string): boolean {
+  if (answer.type === "single") return answer.value === key;
+  if (answer.type === "multiple") return answer.value.includes(key);
+  return false;
+}
+
+function optionStateClass(
+  question: Question,
+  answer: UserAnswer,
+  submitted: boolean,
+  key: string,
+): string {
+  const isCorrect = question.correct_answers.includes(key);
+  const selected = submitted && isUserSelected(answer, key);
+  if (isCorrect) return "option correct";
+  if (selected) return "option incorrect";
+  return "option";
 }
 
 export function ExamSummary({ exam, results, onRestart, onExit }: Props) {
@@ -106,18 +125,56 @@ export function ExamSummary({ exam, results, onRestart, onExit }: Props) {
                 )}
               </div>
               <p className="summary-question">{q.question}</p>
-              <div className="summary-row">
-                <span className="feedback-label">Your answer:</span>
-                <span className="feedback-value">
-                  {r.submitted ? formatUserAnswer(r.answer) : "not answered"}
-                </span>
-              </div>
-              <div className="summary-row">
-                <span className="feedback-label">Correct answer:</span>
-                <span className="feedback-value">
-                  {q.correct_answers.slice().sort().join(", ")}
-                </span>
-              </div>
+
+              {q.type !== "open" && (
+                <ul className="option-list summary-options">
+                  {Object.entries(q.options).map(([key, label]) => {
+                    const selected =
+                      r.submitted && isUserSelected(r.answer, key);
+                    const isCorrect = q.correct_answers.includes(key);
+                    return (
+                      <li key={key}>
+                        <div
+                          className={optionStateClass(
+                            q,
+                            r.answer,
+                            r.submitted,
+                            key,
+                          )}
+                        >
+                          <span className="option-key">{key})</span>
+                          <span className="option-label">{label}</span>
+                          <span className="option-tags">
+                            {selected && (
+                              <span className="option-tag your">Your answer</span>
+                            )}
+                            {isCorrect && (
+                              <span className="option-tag correct">Correct</span>
+                            )}
+                          </span>
+                        </div>
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
+
+              {q.type === "open" && (
+                <>
+                  <div className="summary-row">
+                    <span className="feedback-label">Your answer:</span>
+                    <span className="feedback-value">
+                      {r.submitted ? formatUserAnswer(r.answer) : "not answered"}
+                    </span>
+                  </div>
+                  <div className="summary-row">
+                    <span className="feedback-label">Correct answer:</span>
+                    <span className="feedback-value">
+                      {q.correct_answers.slice().sort().join(", ")}
+                    </span>
+                  </div>
+                </>
+              )}
             </li>
           );
         })}

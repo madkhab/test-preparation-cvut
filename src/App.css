@@ -259,6 +259,48 @@
   color: #2f9e44;
 }
 
+.option.incorrect {
+  border-color: rgba(240, 110, 110, 0.85);
+  background: rgba(240, 110, 110, 0.18);
+}
+
+.option.incorrect .option-key,
+.option.incorrect .option-label {
+  color: #e03131;
+}
+
+.summary-options {
+  margin-top: 0.5rem;
+}
+
+.option-tags {
+  display: flex;
+  gap: 0.3rem;
+  margin-left: auto;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.option-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  white-space: nowrap;
+}
+
+.option-tag.your {
+  color: #6aa6ff;
+}
+
+.option-tag.correct {
+  color: #2f9e44;
+}
+
 .option input {
   margin-top: 0.2rem;
   flex-shrink: 0;
