@@ -77,6 +77,12 @@
   }
 }
 
+.exam-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
 .exam-card {
   display: flex;
   flex-direction: column;
@@ -91,6 +97,24 @@
   text-align: left;
   transition: border-color 0.15s, transform 0.15s;
   min-height: 44px;
+}
+
+.exam-preview-button {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgba(125, 125, 125, 0.25);
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+  min-height: 36px;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.exam-preview-button:hover {
+  border-color: #6aa6ff;
+  color: #6aa6ff;
 }
 
 .exam-card:hover {

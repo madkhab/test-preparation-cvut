@@ -3,10 +3,11 @@ import type { Exam } from "../types/exam";
 interface Props {
   exams: Exam[];
   onSelect: (exam: Exam) => void;
+  onPreview: (exam: Exam) => void;
   onRandom: () => void;
 }
 
-export function ExamSelector({ exams, onSelect, onRandom }: Props) {
+export function ExamSelector({ exams, onSelect, onPreview, onRandom }: Props) {
   const sorted = [...exams].sort((a, b) => b.year - a.year);
 
   return (
@@ -23,7 +24,7 @@ export function ExamSelector({ exams, onSelect, onRandom }: Props) {
       </p>
       <ul className="exam-list">
         {sorted.map((exam) => (
-          <li key={exam.year}>
+          <li key={exam.year} className="exam-list-item">
             <button
               type="button"
               className="exam-card"
@@ -34,6 +35,13 @@ export function ExamSelector({ exams, onSelect, onRandom }: Props) {
               <span className="exam-meta">
                 {exam.source_test_name} · {exam.questions.length} questions
               </span>
+            </button>
+            <button
+              type="button"
+              className="exam-preview-button"
+              onClick={() => onPreview(exam)}
+            >
+              👁 Overview
             </button>
           </li>
         ))}
